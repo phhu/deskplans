@@ -1,0 +1,2308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans xmlns:svg="http://www.w3.org/2000/svg">
+
+	  <site name="Glasgow" height="23" width="15" sitecode="gla">
+
+		    <wall x="8" y="0" height="10" width="0.25"/>
+		    <wall x="12" y="0" height="10" width="0.25"/>
+		
+		    <office name="Glasgow myBPOS" domain="fpsgglasgow" height="8.5" width="10.5" x="7"
+              y="12">
+			
+			<!-- MyBPOS -->	
+			<wall x="3.5" y="0" width="4" height="2.5"/> 
+         <!-- Elevator -->
+			<wall x="0" y="7.75" width="10.5" height=".3"/> 
+         <!-- Windows -->
+			<wall x="9.5" y="0" width="0.25" height="5"/> 
+         <!-- Back Wall -->
+			<wall x="0" y="2.25" width="3" height=".25"/> 
+         <!-- Reception -->
+			
+			<company name="myBPOS" logo="http://www.mybpos.net/assets/img/logo2.png">
+
+				        <pod title="Reception" x="2" y=".25" width="1" height="2">
+					          <desk y="0" x="0">			
+                  <user name="sdonnelly" cn="Stacey-Leigh Donnelly" title="Head Receptionist"
+                        telephonenumber="0141 270 5000"
+                        email="sdonnelly@mybpos.net"/>			
+                  <computer name="glawmybpos034" ip_address="192.168.0.94" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3500 Series"/>		
+               </desk>
+					          <desk y="1" x="0">			
+                  <user name="ahamilton" cn="Amanda Hamilton" title="Receptionist"
+                        telephonenumber="0141 270 5000"
+                        email="ahamilton@mybpos.net"/>				
+                  <computer name="glawmybpos031" ip_address="192.168.0.105" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>		
+               </desk>
+				        </pod> 
+
+				        <printer y="3.5" x="0" name="GLAPMYBPOS"/>
+				
+				        <pod title="Corp services" x="2" y="4.75" width="2" height="3">
+					          <desk y="0" x="0">												
+                  <computer name="glawmybpostime" ip_address="192.168.0.129" rough_memory="4.0G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3135 Microtower PC"/> 
+               </desk> 
+					          <desk y="1" x="0">			
+                  <user name="ksmart" cn="Kimberley Smart" title="HR Administrator"
+                        telephonenumber="0141 270 5118"
+                        email="ksmart@mybpos.net"/> 				
+                  <computer name="glawmybpos039" ip_address="192.168.0.86" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>		
+               </desk>
+					          <desk y="2" x="0">			
+                  <user name="cdoherty" cn="Cheryl Doherty" title="HR and Legal Advisor"
+                        telephonenumber="(+44/0) 141 270 5118"
+                        email="cdoherty@mybpos.net"/>			
+                  <computer name="glawmybpos020" ip_address="192.168.0.138" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/> 		
+               </desk>
+					          <desk y="0" x="1">			
+                  <user name="sknox" cn="Simon Knox" title="Relocation Manager"
+                        telephonenumber="+44 (0) 141 270 5001"
+                        email="sknox@mybpos.net"/>				
+                  <computer name="glawmybpos027" ip_address="192.168.0.147" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3500 Series"/>    	
+               </desk>
+					          <desk y="1" x="1">			
+                  <user name="gpeters" cn="Gabrielle Peters" title="Client Executive"
+                        telephonenumber="(+44/0) 141 270 5001"
+                        email="gpeters@mybpos.net"/>				
+                  <computer name="glawmybpos025" ip_address="192.168.0.100" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3500 Series"/>		
+               </desk>
+					          <desk y="2" x="1">			
+                  <user name="rlittle" cn="Robert Little" title="Client Executive"
+                        telephonenumber="0141 270 5024"
+                        email="rlittle@mybpos.net"/>				
+                  <computer name="glawmybpos040" ip_address="192.168.0.109" rough_memory="8.5G"
+                            composshort="Win8.1"
+                            manufacturer="Acer"
+                            model="Veriton M2631G"/>		
+               </desk>   
+               <!-- <computer name="glawmybpos038"/> -->
+				</pod>  
+				
+				        <pod title="Credit Control" x="4.25" y="3.75" width="2" height="4">
+					          <desk y="1" x="0">			
+                  <user name="rdaly" cn="Roddy Daly" title="Contracts &amp; Payroll"
+                        telephonenumber="0141 270 5118"
+                        email="rdaly@mybpos.net"/>				
+                  <computer name="glawmybpos041" ip_address="" rough_memory="G" composshort=""
+                            manufacturer=""
+                            model=""/>		
+               </desk> 
+					          <desk y="2" x="0">			<!--<user name="estill" />    -->  		<computer name="glawmybpos032" ip_address="192.168.0.132" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>		
+               </desk>
+					          <desk y="3" x="0">			
+                  <user name="mbrown" cn="Myra Brown" title="Finance Officer"
+                        telephonenumber="0141 270 5118"
+                        email="mbrown@mybpos.net"/>				
+                  <computer name="glawmybpos036" ip_address="192.168.0.35" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>		
+               </desk>
+					          <desk y="1" x="1">			
+                  <user name="emccalden" cn="Elaine McCalden" title="Credit Controller"
+                        telephonenumber="0141 270 5021"
+                        email="emccalden@mybpos.net"/>         	
+                  <computer name="glawmybpos029" ip_address="192.168.0.46" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>		
+               </desk>
+					          <desk y="2" x="1">			
+                  <user name="rmcdonald" cn="Ryan McDonald" title="Credit Controller"
+                        telephonenumber="0141 270 5021"
+                        email="rmcdonald@mybpos.net"/>			
+                  <computer name="glawmybpos022" ip_address="192.168.0.32" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/>		
+               </desk>
+					          <desk y="3" x="1">			
+                  <user name="rwelsh" cn="Ray Welsh" title="Credit Control Manager"
+                        telephonenumber="0141 270 5021"
+                        email="rwelsh@mybpos.net"/>				
+                  <computer name="glawmybpos026" ip_address="192.168.0.43" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3500 Series"/>		
+               </desk>
+				        </pod>
+				
+				        <pod title="Finance/IT" x="6.5" y="4.75" width="2" height="3">
+				           <desk y="0" x="0">				
+                  <user name="phughson" cn="Philip Hughson" title="Senior Applications Engineer"
+                        telephonenumber="0141 270 5023"
+                        email="phughson@mybpos.net"/>			
+                  <computer name="glalmybpos006" ip_address="192.168.0.117" rough_memory="8.5G"
+                            composshort="Win8.1"
+                            manufacturer="Hewlett-Packard"
+                            model="ProBook 450 G1"/>		
+               </desk> 
+               <!-- smclean was on <computer name="glawmybpos010"/>	 -->
+				 <desk y="0" x="1">				
+                  <user name="sleverage" cn="Stephanie Leverage" title="Senior Finance Officer"
+                        telephonenumber="0141 270 5118"
+                        email="sleverage@mybpos.net"/>			
+                  <computer name="glawmybpos004" ip_address="192.168.0.58" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/>		
+               </desk>
+				           <desk y="1" x="0">				
+                  <user name="igarrow" cn="Iain Garrow" title="Finance Assistant"
+                        telephonenumber="0141 270 5118"
+                        email="igarrow@mybpos.net"/>				
+                  <computer name="glawmybpos045" ip_address="192.168.0.119" rough_memory="2.1G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/>		
+               </desk>  
+				           <desk y="1" x="1">				
+                  <user name="kknox" cn="Kaitlyn Knox" title="Finance Assistant"
+                        telephonenumber="0141 270 5118"
+                        email="kknox@mybpos.net"/>				
+                  <computer name="glawmybpos035" ip_address="192.168.0.146" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>		
+               </desk>
+				           <desk y="2" x="0">				
+                  <user name="jfraser" cn="Jamie Fraser" title="Group IT Manager"
+                        telephonenumber="0141 270 5023"
+                        email="jfraser@mybpos.net"/>				
+                  <computer name="glalmybpos005" ip_address="192.168.0.112" rough_memory="8.5G"
+                            composshort="Win8.1"
+                            manufacturer="Dell"
+                            model="Latitude E5540"/>		
+               </desk> 					
+				           <desk y="2" x="1">				
+                  <user name="rwatson" cn="Robert Watson" title="Project Accountant"
+                        telephonenumber="0141 270 5118"
+                        email="rwatson@mybpos.net"/>				
+                  <computer name="glawmybpos043" ip_address="192.168.0.101" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>		
+               </desk>
+				        </pod>
+								
+				        <pod title="Finance" x="8" y="1.25" width="1" height="2">				
+				           <desk y="0" x="0">				
+                  <user name="lesley.taylor" cn="Lesley Taylor" title="Finance Director"
+                        telephonenumber="0141 270 5118"
+                        email="lesley.taylor@compellostaffinggroup.com"/>		
+                  <computer name="glawmybpos030" ip_address="192.168.0.34" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Lenovo"
+                            model="ThinkCentre M92p"/>		
+               </desk>    
+				           <desk y="1" x="0">				
+                  <user name="mdeady" cn="Michelle Deady" title="Management Accountant"
+                        telephonenumber="0141 270 5118"
+                        email="mdeady@mybpos.net"/>				
+                  <computer name="glawmybpos037" ip_address="192.168.0.96" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>		
+               </desk>
+				        </pod>
+				        <pod title="Casa del Capitan" x="9" y="6.75" width="1" height="1">
+				           <desk y="0" x="0">				
+                  <user name="jhailstone" cn="John Hailstone" title="Chairman"
+                        telephonenumber="0141 270 5118"
+                        email="jhailstone@compellostaffinggroup.com"/>			
+                  <computer name="glawcompello01" ip_address="" rough_memory="G" composshort=""
+                            manufacturer=""
+                            model=""/>		
+               </desk>
+				        </pod>  
+
+			      </company>
+			  
+		    </office>
+
+
+		
+		    <office name="Glasgow FPS" domain="fpsgglasgow" height="14" width="10.5" x="0" y="0">
+			
+			
+			      <company name="FPS">
+				
+
+				        <wall x="0" y="0.4" height="0.3" width="0.3"/>
+				
+				        <port x="0" y="0.65" caption="01/A/02 D1-8"/>
+				        <port x="0" y="0.8" caption="01/A/023 D1-4"/>
+
+				        <!-- big pillar -->
+				<wall x="5" y="6.5" height="0.5" width="0.5"/>
+				        <port x="5" y="6.35" caption="01/A/23 D5-8"/>
+				        <port x="5.35" y="6.35" caption="01/A/24 D1-8"/>		
+
+				        <port x="0" y="3.65" caption="01/A/25 D1-4"/>
+				        <port x="0" y="3.8" caption="01/A/15 D1-8"/>
+				        <wall x="0" y="5.5" height="0.3" width="0.3"/>
+				
+				        <port x="0" y="6.5" caption="01/A/30 D5-8"/>
+				        <port x="0" y="6.65" caption="01/A/14 D1-8"/>
+				        <port x="3.5" y="6.65" caption="FP 01/A/17 D5-8"/>
+				
+				        <!-- start at top corner - Chris Muir	-->
+				<pod x="0.4" y="0.25" width="5" height="2" title="FPS - Ol and Gas">
+				           <desk y="0" x="0">		
+                  <user name="cmuir" cn="Chris Muir" title="Managing Consultant"
+                        telephonenumber="+44 141 270 5006"
+                        email="cmuir@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps035" ip_address="192.168.0.98" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3500 Series"/>				
+               </desk>
+				           <desk y="1" x="0">		
+                  <user name="cblack" cn="Craig Black" title="Account Manager"
+                        telephonenumber="+44 141 270 5006"
+                        email="cblack@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps053" ip_address="192.168.0.128" rough_memory="4.2G"
+                            composshort="Win8.1"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+				           <desk y="0" x="1">		
+                  <user name="cwalker" cn="Calum Walker" title="Recruitment Consultant"
+                        telephonenumber="+44 141 270 5006"
+                        email="cwalker@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps025" ip_address="192.168.0.51" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/>				
+               </desk>
+				           <desk y="1" x="1">		
+                  <user name="sshaw" cn="Sam Shaw" title="Scientific Recruitment Consultant"
+                        telephonenumber="+44 141 270 5006"
+                        email="sshaw@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps033" ip_address="192.168.0.53" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3500 Series"/>				
+               </desk>  
+				           <desk y="1" x="2">		
+                  <user name="twallace" cn="Tracey Wallace" title="Office Manager"
+                        telephonenumber="+44 141 270 5006"
+                        email="twallace@firstpeoplesolutions.com"/>            
+                  <computer name="glawfps036" ip_address="192.168.0.123" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+				           <desk y="0" x="2">		
+                  <user name="smcfaulds" cn="Steven McFaulds" title="Recruitment Consultant"
+                        telephonenumber="+44 141 270 5006"
+                        email="smcfaulds@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps041" ip_address="192.168.0.95" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+				           <desk y="0" x="3">		
+                  <user name="fwhyte" cn="Fraser Whyte" title="Consultant"
+                        telephonenumber="+44 141 270 5006"
+                        email="fwhyte@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps046" ip_address="192.168.0.62" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+				           <desk y="1" x="3">		
+                  <user name="lmurray" cn="Laura Murray" title="Administrator"
+                        telephonenumber="+44 141 270 5000"
+                        email="lmurray@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps054" ip_address="192.168.0.121" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="ZOOSTORM"
+                            model="7876-9021B"/>				
+               </desk>
+				           <desk y="0.5" x="4">	
+                  <user name="gmaitland" cn="Gavin Maitland" title="Associate Director"
+                        telephonenumber="+44 141 270 5006"
+                        email="gmaitland@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps026" ip_address="192.168.0.41" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/>				
+               </desk> 
+				        </pod>   	
+				
+				        <port x="5" y="0" caption="??? - 6x2"/>
+				
+				        <pod title="FPS - boss" x="5.5" y="0" width="1" height="1">
+				           <desk y="0" x="0">		
+                  <user name="jscott" cn="John Scott" title="Managing Director"
+                        telephonenumber="+44 141 270 5007"
+                        email="jscott@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps032" ip_address="192.168.0.48" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3500 Series"/>				
+               </desk>		 
+				        </pod>
+				
+				        <pod title="FPS - aviation" x="0.5" y="3" width="5" height="2">
+					          <desk y="0" x="0">		
+                  <user name="kbiggart" cn="Kelly Biggart" title="Managing Consultant"
+                        telephonenumber="+44 141 270 5007"
+                        email="kbiggart@firstpeoplesolutions.com"/>		
+                  <computer name="glawfps049" ip_address="192.168.0.99" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+					          <desk y="0" x="1">		
+                  <user name="hsawkins" cn="Holly Sawkins" title="Senior Recruitment Consultant"
+                        telephonenumber="+44 141 270 5007"
+                        email="hsawkins@firstpeoplesolutions.com"/>		
+                  <computer name="glawfps042" ip_address="192.168.0.37" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk> 
+					          <desk y="0" x="2">		
+                  <user name="kcripps" cn="Kirsty Cripps" title="Operations Co-ordinator"
+                        telephonenumber="+44 141 270 5007"
+                        email="kcripps@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps023" ip_address="192.168.0.143" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/>				
+               </desk>
+					          <desk y="1" x="0">		
+                  <user name="randerson" cn="Rebecca Anderson" title="Associate Director"
+                        telephonenumber="+44 141 270 5007"
+                        email="randerson@firstpeoplesolutions.com"/>		
+                  <computer name="glawfps048" ip_address="192.168.0.39" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+					          <desk y="1" x="1">		
+                  <user name="lwalker" cn="Lee Walker" title="New Business Coordinator"
+                        telephonenumber="+44 141 270 5007"
+                        email="lwalker@firstpeoplesolutions.com"/>		 	
+                  <computer name="glawfps034" ip_address="192.168.0.146" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3500 Series"/>				
+               </desk>
+					          <desk y="1" x="2">		
+                  <user name="bmcdougall" cn="Billy McDougall" title="Senior Recruitment Consultant"
+                        telephonenumber="+44 141 270 5007"
+                        email="bmcdougall@firstpeoplesolutions.com"/>		
+                  <computer name="glawfps001" ip_address="192.168.0.70" rough_memory="6.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3135 Microtower PC"/>				
+               </desk>	
+					          <desk y="0" x="3">					</desk> 
+					          <desk y="1" x="3">																					</desk> 
+					          <desk y="0.5" x="4">	
+                  <user name="jreid" cn="John Reid" title="Finance Officer"
+                        telephonenumber="+44 141 270 5007"
+                        email="jreid@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps051" ip_address="192.168.0.131" rough_memory="8.5G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/>				
+               </desk>
+				        </pod>			
+				
+				        <pod title="FPS construction and trades" x="0.5" y="7" width="5" height="2">			
+				           <desk y="0" x="0">		
+                  <user name="garmstrong" cn="Gordon Armstrong" title="Recruitment Consultant"
+                        telephonenumber="+44 141 270 5130"
+                        email="garmstrong@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps044" ip_address="192.168.0.56" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+				           <desk y="0" x="1">		
+                  <user name="dhamilton" cn="David Hamilton" title="Recruitment Consultant"
+                        telephonenumber="+44 141 270 5130"
+                        email="dhamilton@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps59" ip_address="192.168.0.97" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+				           <desk y="0" x="2">		
+                  <user name="yheelan" cn="Yvonne Heelan" title="Senior Consultant"
+                        telephonenumber="+44 141 270 5130"
+                        email="yheelan@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps056" ip_address="192.168.0.117" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/>				
+               </desk>
+				           <desk y="0" x="3">		
+                  <user name="framirez" cn="Fatima Ramirez" title="Marketing Manager"
+                        telephonenumber="+44 141 270 5007"
+                        email="framirez@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps039" ip_address="192.168.0.53" rough_memory="12.8G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>			 
+				           <desk y="1" x="0">		
+                  <user name="smorrison" cn="Scott Morrison" title="Director"
+                        telephonenumber="+44 141 270 5130"
+                        email="smorrison@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps037" ip_address="192.168.0.56" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>   
+				           <desk y="1" x="1">		
+                  <user name="cboyd" cn="Chris Boyd" title="Divisional Manager"
+                        telephonenumber="+44 141 270 5130"
+                        email="cboyd@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps040" ip_address="192.168.0.101" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+				           <desk y="1" x="2">		
+                  <user name="lpollock" cn="Laura Pollock" title="Resourcer"
+                        telephonenumber="+44 141 270 5130"
+                        email="lpollock@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps047" ip_address="192.168.0.65" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>	
+				           <desk y="1" x="3">											
+                  <computer name="glawfps031" ip_address="192.168.0.117" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3500 Series"/>				
+               </desk>
+				           <desk y="0" x="4">		
+                  <user name="nbaxter" cn="Nathan Baxter" title="Marketing Assistant"
+                        telephonenumber="+44 141 270 5007"
+                        email="nbaxter@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps057" ip_address="192.168.0.54" rough_memory="8.5G"
+                            composshort="Win8.1"
+                            manufacturer="Dell"
+                            model="OptiPlex 3020"/>				
+               </desk>
+				           <desk y="1" x="4">																						</desk>
+				        </pod>
+				
+				        <pod title="FPS Trades" x="0.5" y="11" width="5" height="2">			
+				           <desk y="0" x="0">		
+                  <user name="datha" cn="David Atha" title="Recruitment Consultant"
+                        telephonenumber="+44 141 270 5130"
+                        email="datha@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps038" ip_address="192.168.0.127" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+				           <desk y="0" x="1">		
+                  <user name="jmackay1" cn="Jordan Mackay" title="Recruitment Consultant"
+                        telephonenumber="+44 141 270 5130"
+                        email="jmackay@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps021" ip_address="192.168.0.86" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/>				
+               </desk>
+				           <desk y="0" x="2">		
+                  <user name="gconnelly" cn="Gemma Connelly" title="Administrator"
+                        telephonenumber="+44 141 270 5000"
+                        email="gconnelly@firstpeoplesolutions.com"/>			
+                  <computer name="glawfps052" ip_address="192.168.0.55" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="ZOOSTORM"
+                            model="7876-9021B"/>				
+               </desk>
+				           <desk y="0" x="3">																						</desk>			 
+				           <desk y="1" x="0">		
+                  <user name="koneill" cn="Kieran O'Neill" title="Resourcing Manager"
+                        telephonenumber="+44 141 270 5130"
+                        email="koneill@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps024" ip_address="192.168.0.34" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 3400 Series MT"/>				
+               </desk>   
+				           <desk y="1" x="1">		
+                  <user name="rallen" cn="Rebecca Allen" title="Resourcer"
+                        telephonenumber="+44 141 270 5130"
+                        email="rallen@firstpeoplesolutions.com"/>				
+                  <computer name="glawfps045" ip_address="192.168.0.103" rough_memory="4.2G"
+                            composshort="Win7"
+                            manufacturer="Hewlett-Packard"
+                            model="Pro 4300 SFF PC"/>				
+               </desk>
+				           <desk y="1" x="2">																						</desk>	
+				           <desk y="1" x="3">																						</desk>
+				           <desk y="0" x="4">																						</desk>
+				           <desk y="1" x="4">																						</desk>
+				        </pod>
+				
+				        <pod title="FPS 1" x="6.5" y="1.5" width="4" height="2">			
+				           <desk y="0" x="0">								</desk>
+				           <desk y="0" x="1">								</desk>
+				           <desk y="0" x="2">								</desk>
+				           <desk y="0" x="3">								</desk>			 
+				           <desk y="1" x="0">								</desk>   
+				           <desk y="1" x="1">								</desk>
+				           <desk y="1" x="2">								</desk>	
+				           <desk y="1" x="3">								</desk>
+				        </pod>
+				
+				        <pod title="FPS 2" x="6.5" y="5" width="4" height="2">			
+				           <desk y="0" x="0">							</desk>
+				           <desk y="0" x="1">							</desk>
+				           <desk y="0" x="2">							</desk>
+				           <desk y="0" x="3">							</desk>			 
+				           <desk y="1" x="0">							</desk>   
+				           <desk y="1" x="1">							</desk>
+				           <desk y="1" x="2">							</desk>	
+				           <desk y="1" x="3">							</desk>
+				        </pod>
+
+						      <wall x="5.75" y="8" height="5" width="0.15"/>
+						      <wall x="6.5" y="8" height="0.15" width="4"/>
+								
+				        <printer x="4.5" y="9.5" name="GLAPFPS"/>
+			
+			      </company>	
+			   </office>
+			
+
+	  </site>
+
+	  <office name="Glasgow FPSG" domain="fpsgglasgow" sitecode="glc" height="10" width="10"
+           x="0"
+           y="12">
+		
+		    <company name="FPSG">
+			
+			      <wall x="0" y="1.5" width="1" height="0.25"/>
+			      <wall x="0" y="3" width="1" height="0.25"/>
+			      <wall x="2.25" y="3" width="1.75" height="0.25"/>
+			
+			      <wall x="1.5" y="0" width="0.25" height="3.25"/>
+			      <wall x="0.75" y="4" width="2.75" height="0.25"/>
+			      <wall x="4" y="0" width="0.25" height="4"/>
+			      <wall x="3" y="5" width="0.25" height="5"/>
+			
+			      <port x="1.8" y="1" caption="7N"/>
+			      <desk x="3" y="1"> 
+            <computer name="glcwboardroom" ip_address="192.168.4.63" rough_memory="4.2G"
+                      composshort="Win8.1"
+                      manufacturer="Lenovo"
+                      model="ThinkCentre M53"/>
+         </desk>
+			
+			      <pod title="Admin" x="8" y="0.5" width="2" height="2">
+				        <desk x="0" y="0"> 					
+               <user name="(jagnew)" cn="" title="" telephonenumber="" email=""/>								
+            </desk>
+				        <desk x="1" y="0"> 					
+               <user name="aspratt" cn="Andrew Spratt" title="Managing Director"
+                     telephonenumber="0141 270 5003"
+                     email="aspratt@fpsg.com"/>			
+               <computer name="glcw46" ip_address="192.168.4.50" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9031A"/>		
+            </desk>
+				        <desk x="0" y="1"> 					
+               <user name="(Fatima)" cn="" title="" telephonenumber="" email=""/>		
+               <computer name="glcw33" ip_address="192.168.4.62" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+				        <desk x="1" y="1"> 					
+               <user name="cmurray" cn="Carol Murray" title="Office Manager"
+                     telephonenumber="0141 270 5003"
+                     email="cmurray@fpsg.com"/>			
+               <computer name="glcw38" ip_address="192.168.4.64" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+			      </pod>
+			      <pod title="Sales and Marketing" x="8" y="3.5" width="2" height="2">
+				        <desk x="0" y="0"> 							
+               <computer name="glcw25" ip_address="192.168.4.89" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3500 Series"/>		
+            </desk>
+				        <desk x="1" y="0"> 					
+               <user name="kpeacock" cn="Kirsty Peacock" title="Director of Operations"
+                     telephonenumber="0141 270 5002"
+                     email="kpeacock@fpsg.com"/>		
+               <computer name="glcw44" ip_address="192.168.4.60" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+				        <desk x="0" y="1"> 							</desk>
+				        <desk x="1" y="1"> 					
+               <user name="jwhite" cn="James White" title="Head of Marketing and Sales"
+                     telephonenumber="0141 270 5004"
+                     email="jwhite@fpsg.com"/>			
+               <computer name="glcw39" ip_address="192.168.4.59" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+			      </pod>		
+			      <pod title="Professional Services" x="8" y="7" width="2" height="2">
+				        <desk x="0" y="0">					 								
+               <computer name="glcw46" ip_address="192.168.4.50" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9031A"/>		
+            </desk>
+				        <desk x="1" y="0"> 					
+               <user name="dsimpson" cn="David Simpson" title="Head of Procurement and Supply Chain"
+                     telephonenumber="0141 270 5132"
+                     email="dsimpson@fpsg.com"/>		
+               <computer name="glcw31" ip_address="192.168.4.56" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+				        <desk x="0" y="1"> 					
+               <user name="emccrink" cn="Elaine McCrink" title="Head of General Insurance"
+                     telephonenumber="0141 270 5131"
+                     email="emccrink@fpsg.com"/>		
+               <computer name="glcw45" ip_address="192.168.4.61" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9031A"/>		
+            </desk>
+				        <desk x="1" y="1">					
+               <user name="rclark" cn="" title="" telephonenumber="" email=""/>			
+               <computer name="glcw36" ip_address="192.168.4.81" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+			      </pod>	
+			      <pod title="Business Operations" x="5" y="6" width="2" height="3">
+				        <desk x="0" y="0"> 	</desk>
+				        <desk x="1" y="0"> 	</desk>
+				        <desk x="0" y="1"> 					
+               <user name="jmcvey" cn="Julie McVey" title="Managing Consultant"
+                     telephonenumber="0141 270 5002"
+                     email="jmcvey@fpsg.com"/>			
+               <computer name="glcw30" ip_address="192.168.4.78" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3500 Series"/>		
+            </desk>
+				        <desk x="1" y="1">					
+               <user name="hdownes" cn="Holly Downes" title="Recruitment Consultant"
+                     telephonenumber="0141 270 5002"
+                     email="hdownes@fpsg.com"/>			
+               <computer name="glcw02" ip_address="192.168.4.79" rough_memory="4.0G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3135 Microtower PC"/>		
+            </desk>
+				        <desk x="0" y="2"> 					
+               <user name="cflynn" cn="" title="" telephonenumber="" email=""/>			
+               <computer name="glcw29" ip_address="192.168.4.57" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3500 Series"/>		
+            </desk>
+				        <desk x="1" y="2"> 					
+               <user name="jhammond" cn="Jane Hammond" title="Senior Consultant"
+                     telephonenumber="0141 270 5002"
+                     email="jhammond@fpsg.com"/>		
+               <computer name="glawconnect034" ip_address="192.168.4.65" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+			      </pod>	
+			      <printer x="4" y="0.75" name="glcp1"/>			
+			      <pod title="IT Recruitment" x="5" y="0.5" width="2" height="3">
+				        <desk x="0" y="0"> 					
+               <user name="kmanaf" cn="Kaleem Manaf" title="Head of Business Change/IT"
+                     telephonenumber="0141 270 5009"
+                     email="kmanaf@fpsg.com"/>			
+               <computer name="glcw32" ip_address="192.168.4.65" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+				        <desk x="1" y="0"> 					
+               <user name="iblackwood" cn="Ian Blackwood" title="Recruitment Consultant"
+                     telephonenumber="0141 270 5003"
+                     email="iblackwood@fpsg.com"/>		
+               <computer name="glcw26" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>		
+            </desk>
+				        <desk x="0" y="1"> 					
+               <user name="smcallister" cn="Sheryl McAllister" title="IT Recruitment Consultant"
+                     telephonenumber="0141 270 5009"
+                     email="smcallister@fpsg.com"/> 	
+               <computer name="glcw03" ip_address="192.168.4.69" rough_memory="6.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3135 Microtower PC"/>		
+            </desk>
+				        <desk x="1" y="1"> 					
+               <user name="rnorin" cn="Rasiba Norin" title="Recruitment Consultant"
+                     telephonenumber="0141 270 5003"
+                     email="rnorin@fpsg.com"/>		 	
+               <computer name="glcw47" ip_address="192.168.4.66" rough_memory="6.3G" composshort="Win7"
+                         manufacturer="Gigabyte Technology Co."
+                         model="To be filled by O.E.M."/>		
+            </desk>
+				        <desk x="0" y="2"> 					
+               <user name="lciesielski" cn="Lukasz Ciesielski" title="Consultant"
+                     telephonenumber="0141 270 5009"
+                     email="lciesielski@fpsg.com"/>						
+            </desk>
+				        <desk x="1" y="2"> 					
+               <user name="spender" cn="Stephanie Pender" title="IT &amp; Digital Consultant"
+                     telephonenumber="0141 270 5009"
+                     email="spender@fpsg.com"/>		
+               <computer name="glcw27" ip_address="192.168.4.73" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3500 Series"/>	
+            </desk>
+			      </pod>
+			
+		    </company>		
+	  </office>
+	
+	  <office name="Glasgow NetTalent" domain="fpsgglasgow" sitecode="ntg" height="4"
+           width="3">
+		    <company name="Net Talent">
+			      <printer x="1" y="0" name="ntgp01"/>
+			      <pod x="2" y="2" height="2" width="1">
+				        <desk y="0" x="0">		
+               <user name="sbutterfield" cn="Sean Butterfield" title="Recruitment Executive"
+                     telephonenumber="0141 212 6314"
+                     email="sbutterfield@nettalent.co.uk"/>	    
+               <computer name="ntgw05" ip_address="192.168.6.51" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>		
+            </desk>
+				        <desk y="1" x="0"> 	 	<!--<user name="codonnell" />-->		<computer name="ntgw06" ip_address="192.168.6.51" rough_memory="8.5G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="OptiPlex 3020M"/>		
+            </desk>							
+			      </pod>
+			      <pod x="0" y="2" height="2" width="1">
+				        <desk y="0" x="0">	  								
+               <computer name="ntgt??" ip_address="192.168.6.10" rough_memory="G" composshort=""
+                         manufacturer=""
+                         model=""/>  			
+            </desk>    
+            <!-- <computer name="ntgw03"/>-->
+				<desk y="1" x="0"> 		
+               <user name="nwinsey" cn="Nick Winsey" title="Managing Consultant | Glasgow Office"
+                     telephonenumber="0141 212 6311"
+                     email="nwinsey@nettalent.co.uk"/>		
+               <computer name="ntgw02" ip_address="192.168.6.30" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>							
+			      </pod>
+		    </company>
+	  </office>
+		
+
+	  <office name="Loanhead" domain="fpsgglasgow" sitecode="lnh" height="19" width="9">
+		
+		<!-- <wall x="6.5" y="0" height="9.5" width="0.3" /> -->
+		<!-- <port x="0" y="0.65" 	caption="01/A/02 D1-8"/> -->
+		
+		<wall x="0" y="0" width="8" height="0.3"/>
+		    <wall x="0" y="0" width="0.3" height="8"/>
+		    <wall x="0" y="8" width="8" height="0.3"/>
+		    <wall x="8" y="0" width="0.3" height="8"/>
+		
+		    <wall x="0" y="2" width="2" height="0.2"/>
+		    <wall x="2" y="2" width="0.2" height="6"/>
+		
+		    <wall x="2" y="5" width="6" height="0.2"/>
+		    <wall x="5" y="5" width="0.2" height="3"/>
+		
+		    <wall x="0" y="10" width="8.3" height="0.3"/>
+		    <wall x="0" y="10" width="0.3" height="8"/>
+		
+		    <wall x="8" y="10" width="0.3" height="8"/>
+		    <wall x="0" y="18" width="8.3" height="0.3"/>
+		
+		    <wall x="2.55" y="15" width="2.5" height="0.3"/>
+		    <wall x="6" y="15" width="2" height="0.3"/>
+		
+		    <wall x="2.25" y="10" width="0.3" height="1.25"/>
+		    <wall x="2.25" y="12.3" width="0.3" height="6"/>
+		    <wall x="0" y="13" width="2.25" height="0.3"/>
+		
+		    <port x="3" y="0.3" caption="1/1"/> 
+		    <port x="5" y="0.3" caption="1/2"/> 
+		    <port x="7" y="0.3" caption="1/3"/> 
+		
+      <!-- Updates made by David to cover first floor of Loanhead ports/servers -->			
+		<port x="3" y="10.35" caption=" "/>
+		    <port x="5.5" y="10.35" caption=" "/>
+		
+		    <port x="3" y="17.9" caption=" "/>
+		    <port x="4.5" y="17.9" caption=" "/>
+		    <port x="6.5" y="17.9" caption=" "/>
+		
+		    <port x="7.9" y="11" caption=" "/>
+		    <port x="7.9" y="12.5" caption="(7)"/>
+		    <port x="7.9" y="14" caption=" "/>
+		    <port x="7.9" y="15.5" caption="(7)"/>
+		    <port x="7.9" y="17" caption=" "/>
+
+		    <port x="8" y="2" caption="1/4"/> 
+		    <port x="8" y="4" caption="1/5"/> 
+		    <port x="8" y="7" caption="1/6"/> 
+		    <port x="6.6" y="8" caption="1/7"/> 
+		    <port x="4" y="8" caption="1/8"/> 
+		    <port x="2.2" y="7" caption="1/9"/> 
+		    <port x="2.2" y="4" caption="1/10"/> 		
+		    <port x="2.2" y="3.5" caption="4/1-7"/> 	
+
+		    <company name="The Social Care Community Partnership">
+		
+			      <printer name="LNHP01" x="4" y="0.5"/>
+			
+			      <pod title="Professionals" x="2.4" y="2" width="2" height="3">
+				        <desk x="0" y="0">		
+               <user name="awilliamson" cn="" title="" telephonenumber="" email=""/>				
+               <computer name="lnhwcare01" ip_address="192.168.2.103" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Acer"
+                         model="Veriton M2631G"/>				
+            </desk>
+				        <desk x="0" y="1">		
+               <user name="smore" cn="Steven More" title="Director" telephonenumber="0131 202 9933"
+                     email="smore@tsccp.co.uk"/>				
+               <computer name="lnhl005" ip_address="192.168.2.102" rough_memory="3.7G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="ProBook 4535s"/>					
+            </desk>
+			      </pod>
+			
+			      <pod title="Services" x="4.75" y="2" width="3" height="3">
+				        <desk x="0" y="0">		
+               <user name="aoloyede" cn="Alison Oloyede" title="Head of Services"
+                     telephonenumber="0131 202 9933"
+                     email="aoloyede@tsccp.co.uk"/>	    
+               <computer name="lnhl006" ip_address="192.168.2.112" rough_memory="3.7G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="ProBook 4535s"/>   					
+            </desk>
+				        <desk x="1" y="0">		
+               <user name="ascobie" cn="" title="" telephonenumber="" email=""/>		
+               <computer name="lnhwcare02" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>					
+            </desk>	
+				        <desk x="2" y="0">		
+               <user name="sbeattie" cn="Sarah Beattie" title="Recruitment Consultant"
+                     telephonenumber="0131 202 9933"
+                     email="sbeattie@tsccp.co.uk"/>		
+               <computer name="lnhwcare04" ip_address="192.168.2.103" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9031A"/>					
+            </desk>
+				
+				        <desk x="0" y="1">		
+               <computer name="lnhwcare05" ip_address="192.168.2.104" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-8021B"/>													
+            </desk>				
+				        <desk x="1" y="1">																		</desk>	
+				        <desk x="2" y="1">		
+               <user name="awatson" cn="Abigayle Watson" title="Service Co-ordinator"
+                     telephonenumber="0131 202 9933"
+                     email="awatson@tsccp.co.uk"/>		    
+               <computer name="lnhl007" ip_address="192.168.2.109" rough_memory="3.7G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="ProBook 4535s"/>						
+            </desk>	
+			      </pod>
+
+			      <pod title="Room1" x="3" y="6" width="1" height="1">
+				        <desk x="0" y="0">						
+               <computer name="LNHW002" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>  				
+            </desk>	
+			      </pod>
+			
+			      <pod title="Room2" x="6" y="6" width="1" height="1">
+				        <desk x="0" y="0">		
+               <user name="moneill" cn="Maureen O'Neill" title="Managing Director"
+                     telephonenumber=""
+                     email="moneill@tsccp.co.uk"/>		
+               <computer name="lnhw003" ip_address="192.168.2.104" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Gigabyte Technology Co."
+                         model="To be filled by O.E.M."/>	
+            </desk>	
+			      </pod>
+
+			      <pod title="mobile staff" x="0.5" y="3" width="1" height="1">
+				        <desk x="0" y="0">		
+               <user name="ccruickshank" cn="" title="" telephonenumber="" email=""/>				
+               <computer name="lnhl008" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>  				
+            </desk>	
+			      </pod>
+			
+		    </company>
+
+		    <company name="FPS">
+		
+			      <printer name="LNHPFPS" x="5" y="10.35"/>
+			
+			      <pod title="FPS Manager" x="6.25" y="12.75" width="1" height="2">
+				        <desk x="0" y="0">										
+               <computer name="lnhwfps006" ip_address="192.168.2.101" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9021B"/>											
+            </desk>
+				        <desk x="0" y="1">		
+               <user name="scottwilson" cn="Scott Wilson" title="Associate Director"
+                     telephonenumber="+44 131 202 9941"
+                     email="scott.wilson@firstpeoplesolutions.com"/>		
+               <computer name="lnhwfps005" ip_address="192.168.2.124" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9031A"/>				
+            </desk>
+			      </pod>
+		
+			      <pod title="FPS Staff" x="5.75" y="15.7" width="2" height="2">
+				        <desk x="0" y="0">																												</desk>
+				        <desk x="0" y="1">		
+               <user name="pshields" cn="Patrick Shields" title="Recruitment Consultant"
+                     telephonenumber="+44 131 202 9939"
+                     email="pshields@firstpeoplesolutions.com"/>		
+               <computer name="lnhwfps004" ip_address="192.168.2.187" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		  																								
+            </desk>
+				        <desk x="1" y="0">		
+               <user name="cpinnons" cn="Craig Pinnons" title="Managing Consultant"
+                     telephonenumber="+44 131 202 9938"
+                     email="cpinnons@firstpeoplesolutions.com"/>		
+               <computer name="lnhwfps003" ip_address="192.168.2.100" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>			
+            </desk>
+				        <desk x="1" y="1">		
+               <user name="lcoats" cn="Louise Coats" title="Senior Recruitment Consultant"
+                     telephonenumber="+44 131 202 9934"
+                     email="lcoats@firstpeoplesolutions.com"/>		
+               <computer name="lnhwfps008" ip_address="192.168.2.104" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9021B"/>											
+            </desk>
+			      </pod>
+			
+			      <pod title="FPS Staff" x="3" y="15.7" width="2" height="2">
+				        <desk x="0" y="0">		
+               <user name="jszymczak" cn="Justyna Szymczak" title="Recruitment Consultant"
+                     telephonenumber="+44 131 202 9939"
+                     email="jSzymczak@firstpeoplesolutions.com"/>		
+               <computer name="lnhwfps002" ip_address="192.168.2.110" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>											
+            </desk>	
+				        <desk x="0" y="1">						
+               <computer name="lnhwfps007" ip_address="192.168.2.105" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Gigabyte Technology Co."
+                         model="To be filled by O.E.M."/>											
+            </desk>
+				        <desk x="1" y="0">		
+               <user name="jcrocker" cn="Jethro Crocker" title="Recruitment Consultant"
+                     telephonenumber="+44 131 202 9939"
+                     email="jcrocker@firstpeoplesolutions.com"/>			
+               <computer name="lnhwfps009" ip_address="192.168.2.106" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="OptiPlex 3020"/>											
+            </desk>
+				        <desk x="1" y="1">		
+               <user name="rsmith" cn="" title="" telephonenumber="" email=""/>			
+               <computer name="lnhwfps001" ip_address="192.168.2.114" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9031A"/>		  									
+            </desk>
+			      </pod>
+		
+		    </company>
+		
+	  </office>	
+
+	  <office name="Perth" domain="fpsgglasgow" sitecode="per" height="4" width="5">
+		    <company name="FPS">
+			      <pod title="Perth PCs" x="0.5" y="0.5" width="3" height="1">
+				        <desk y="0" x="0">			
+               <user name="danderson" cn="" title="" telephonenumber="" email=""/>		
+               <computer name="perw01" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/> 	
+            </desk>							
+				        <desk y="0" x="1">			
+               <user name="fwang" cn="" title="" telephonenumber="" email=""/>			
+               <computer name="perw02" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/> 	
+            </desk>							
+				        <desk y="0" x="2">			
+               <user name="awallace" cn="" title="" telephonenumber="" email=""/>		
+               <computer name="perw03" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/> 	
+            </desk>							
+			      </pod>
+			      <pod title="laptops" x="0.5" y="2" width="3" height="1">
+				        <desk y="0" x="0">				
+               <computer name="perl01" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/> 	
+            </desk>							
+				        <desk y="0" x="1">				
+               <computer name="perl02" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/> 	
+            </desk>								
+			      </pod> 			
+		    </company>
+	  </office>
+
+	  <office name="TSCCP Glasgow" domain="fpsgglasgow" sitecode="cag" height="4" width="5">
+		    <company name="The Social Care Community Partnership">
+			      <pod title="" x="0.5" y="0.5" width="3" height="1">
+				        <desk y="0" x="0">			
+               <user name="srafiq" cn="Sakib Rafiq" title="Manager" telephonenumber="0141 212 6565"
+                     email="srafiq@tsccp.co.uk"/>		
+               <computer name="cagw01" ip_address="192.168.13.54" rough_memory="8.5G"
+                         composshort="Win8.1"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/> 		
+            </desk>	
+				        <desk y="0" x="1">			
+               <user name="awilson" cn="Annmaree Wilson" title="Resourcing Consultant"
+                     telephonenumber="0141 212 6565"
+                     email="awilson@tsccp.co.uk"/>		
+               <computer name="cagw02" ip_address="192.168.13.50" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Dell"
+                         model="OptiPlex 3020M"/> 		
+            </desk>					
+			      </pod>
+			      <pod title="" x="0.5" y="2.5" width="3" height="1">
+				        <desk y="0" x="0">			
+               <user name="jshafi" cn="Javaid Shafi" title="Training &amp; Development Manager"
+                     telephonenumber="0141 212 6565"
+                     email="jshafi@thenursingpartnership.co.uk"/>		
+               <computer name="cagw04" ip_address="192.168.13.56" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Acer"
+                         model="Veriton N4630G"/>	 	
+            </desk>
+				        <desk y="0" x="1">		 	
+               <user name="smiller" cn="Stephen Miller" title="Senior Consultant"
+                     telephonenumber="0141 212 6565"
+                     email="smiller@thenursingpartnership.co.uk"/>		
+               <computer name="cagw03" ip_address="192.168.13.51" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Acer"
+                         model="Veriton N4630G"/>		
+            </desk>					
+			      </pod>		
+		    </company>
+	  </office>
+	
+	  <company name="Engage PSG">
+		    <office name="London" domain="engagelondon" sitecode="lon" height="16" width="11">
+			<!-- Top of office	-->            
+			<wall x="1.75" y="0" width="0.25" height="8"/>
+			      <wall x="2" y="0" width="3.5" height="0.25"/>
+			      <wall x="5.5" y="0" width="0.25" height="2.5"/>
+			      <wall x="5.5" y="2.5" width="1.5" height="0.25"/>
+			      <wall x="7" y="2.5" width="0.25" height="7.5"/>
+			
+			      <wall x="7" y="11" width="0.25" height="4"/>
+			      <wall name="bottom" x="2" y="15" width="9.25" height="0.25"/>
+			      <wall name="by Bill" x="1.75" y="10.5" width=".25" height="4.75"/>
+			      <fireexit x="1.75" y="14"/>
+			      <stair x="0" y="14"/>
+			
+			      <wall name="far right" x="11" y="2.5" width="0.25" height="12.5"/>
+						
+			      <!-- meeting rooms -->			
+			<wall name="Bottom meeting room top wall" x="7.25" y="13" width="1.75" height=".25"/>
+			      <label x="7.75" y="14" caption="Meeting room" font-size="16"/>
+			
+			      <wall name="meeting room right" x="9" y="2.5" width="0.25" height="12.5"/>
+			      <label x="9.75" y="12" caption="Boardroom" font-size="16"/>
+			
+			      <wall name="meeting room top" x="9.25" y="9.75" width="1.75" height=".25"/>
+			      <label x="9.75" y="8" caption="Utility space" font-size="16"/>
+			      <wall name="utility space top" x="9.25" y="6.75" width="1.75" height=".25"/>
+			      <label x="9.75" y="5" caption="Meeting room" font-size="16"/>
+			      <wall name="top meeting room top" x="9.25" y="2.5" width="1.75" height=".25"/>
+			      <fireexit x="8" y="2.5"/>
+			      <fireextinguisher x="8.5" y="3"/>
+			      <lift x="6" y=".75" caption="Lifts" font-size="16"/>
+			      <stair x="8" y="0"/>		
+
+			
+			      <!-- Kitchen -->
+			<wall x="0" y="6" width="1.75" height=".25"/>
+			      <label x="1" y="7" caption="Kitchen area" font-size="16"/>
+			      <image x="0" y="6.5" height="100" width="100"
+                url="http://itsupport/photos/icons/microwave.jpg"/>
+			      <wall x="0" y="7.75" width="1" height=".25"/>
+			      <wall x="0" y="10.5" width="1.75" height=".25"/>
+			
+			      <!-- boardroom PC -->
+			<desk x="9.5" y="13">
+            <computer name="lonwboard" ip_address="192.168.10.116" rough_memory="4.2G"
+                      composshort="Win8.1"
+                      manufacturer="Dell"
+                      model="OptiPlex 3020M"/>
+         </desk>
+			
+			      <pod title="" x="3.5" y="0.5" width="2" height="2">
+				        <desk y="0" x="0">      				</desk>
+				        <desk y="0" x="1">						</desk>																
+				        <desk y="1" x="0">						</desk>
+				        <desk y="1" x="1">						</desk>
+			      </pod>   	
+	
+			      <pod title="IT" x="3" y="3" width="4" height="2">
+				        <desk y="0" x="1">			
+               <user name="paul.dixon" cn="Paul Dixon" title="Senior Consultant"
+                     telephonenumber="0207 292 3785"
+                     email="paul.dixon@engagepsg.com"/>					
+               <computer name="lonw001" ip_address="192.168.10.123" rough_memory="2.0G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>		
+            </desk>
+				        <desk y="0" x="2">			
+               <user name="aylin.halil" cn="Aylin Halil"
+                     title="Head of Digital|Group Business Development Manager"
+                     telephonenumber="0207 292 3796"
+                     email="aylin.halil@engagepsg.com"/>					
+               <computer name="lonw052" ip_address="192.168.10.121" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Gigabyte Technology Co."
+                         model="To be filled by O.E.M."/>		
+            </desk>
+				        <desk y="0" x="3">			
+               <user name="daniel.williams" cn="Daniel Williams" title="Digital Team Resourcer"
+                     telephonenumber="020 7292 3770"
+                     email="daniel.williams@engagepsg.com"/>				
+               <computer name="lonw054" ip_address="192.168.10.150" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9021B"/>		
+            </desk>
+				        <desk y="1" x="1">			
+               <user name="donte.gilchrist" cn="Donte Gilchrist" title="Recruitment Consultant"
+                     telephonenumber="020 7292 3770"
+                     email="donte.gilchrist@engagepsg.com"/>						
+            </desk>
+				        <desk y="1" x="2">			
+               <user name="thomas.rope" cn="Thomas Rope" title="Associate Consultant"
+                     telephonenumber="0207 292 3770"
+                     email="thomas.rope@engagepsg.com"/>					
+               <computer name="lonw041" ip_address="192.168.10.117" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+				        <desk y="1" x="3">			
+               <user name="din.jomadar" cn="Din Jomadar" title="Senior Consultant"
+                     telephonenumber="020 7292 3770"
+                     email="din.jomadar@engagepsg.com"/>					
+               <computer name="lonw059" ip_address="192.168.10.112" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="OptiPlex 3020"/>				
+            </desk>
+			      </pod>   	 	
+	
+			      <pod title="Consulting" x="3" y="5.5" width="4" height="2">
+				        <desk y="0" x="1">			
+               <user name="masih.kabir" cn="Masih Kabir" title="Account Manager"
+                     telephonenumber="020 7292 3770"
+                     email="masih.kabir@engagepsg.com"/>					
+               <computer name="lonw042" ip_address="192.168.10.119" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+				        <desk y="0" x="2">			
+               <user name="darryl.gray" cn="Darryl Gray" title="Business Development Consultant"
+                     telephonenumber="020 7292 3795"
+                     email="darryl.gray@engagepsg.com"/>				
+               <computer name="" ip_address="" rough_memory="G" composshort="" manufacturer="" model=""/>				
+            </desk>
+				        <desk y="0" x="3">			
+               <user name="dan.poulton" cn="Dan Poulton" title="Manager - Technology Key Accounts"
+                     telephonenumber="020 7292 3783"
+                     email="dan.poulton@engagepsg.com"/>					
+               <computer name="lonw029" ip_address="192.168.10.116" rough_memory="4.0G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3125 Microtower PC"/>		
+            </desk>
+				        <desk y="1" x="1">			
+               <user name="john.tsintzos" cn="John Tsintzos" title="Account Manager"
+                     telephonenumber="0207 292 3774"
+                     email="john.tsintzos@engagepsg.com"/>				
+               <computer name="lonw047" ip_address="192.168.10.100" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+				        <desk y="1" x="2">	       	
+               <user name="darren.duporte" cn="Darren Duporte" title="Recruitment Consultant"
+                     telephonenumber="020 7292 3776"
+                     email="darren.duporte@engagepsg.com"/>				
+               <computer name="" ip_address="" rough_memory="G" composshort="" manufacturer="" model=""/>				
+            </desk>
+				        <desk y="1" x="3">			
+               <user name="kym.sia" cn="Kym Sia" title="Consultant | Banking &amp; Financial Services"
+                     telephonenumber="0207 292 3770"
+                     email="kym.sia@engagepsg.com"/>					
+               <computer name="lonw056" ip_address="192.168.10.104" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Dell"
+                         model="OptiPlex 3020"/>		
+            </desk>
+			      </pod> 
+	
+			      <pod title="Sales and marketing" x="3" y="8" width="4" height="2"><!-- london27 -->
+				<desk y="0" x="1">			
+               <user name="ciaran.bullock" cn="Ciaran Bullock" title="Associate Director"
+                     telephonenumber="020 7292 3770"
+                     email="ciaran.bullock@engagepsg.com"/>				
+               <computer name="lonw055" ip_address="192.168.10.107" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="OptiPlex 3020"/>		
+            </desk>
+				        <desk y="0" x="2">			
+               <user name="franchesca.lopez" cn="" title="" telephonenumber="" email=""/>			
+               <computer name="" ip_address="" rough_memory="G" composshort="" manufacturer="" model=""/>				
+            </desk>
+				        <desk y="0" x="3">			
+               <user name="dane.percival" cn="Dane Percival" title="Senior Consultant"
+                     telephonenumber="0207 292 3770"
+                     email="dane.percival@engagepsg.com"/>				
+               <computer name="lonw045" ip_address="192.168.10.120" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9021B"/>		
+            </desk>
+				        <desk y="1" x="1">							</desk>
+				        <desk y="1" x="2">							</desk>
+				        <desk y="1" x="3">					     	</desk>
+			      </pod>   
+	
+			      <printer name="lonp01" y="8" x="0"/>
+			      <desk y="9.5" x="1">	
+            <computer name="lonw33" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                      model=""/>	
+            <user name="(phone reporting)" cn="" title="" telephonenumber="" email=""/>
+            <!-- phone reporting PC -->	  </desk>
+			
+			      <photo y="9.5" x="0" width="0.5" url="http://itsupport/photos/london/rack1.JPG"
+                caption="Cabinet Layout"/>
+			
+		
+			      <pod title="" y="11" x="2" height="2" width="2">
+				        <desk y="0" x="0">			
+               <user name="bill.graham" cn="Bill Graham" title="Managing Director"
+                     telephonenumber="020 7292 3780"
+                     email="bill.graham@engagepsg.com"/>				
+               <computer name="lonw057" ip_address="192.168.10.106" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Dell"
+                         model="OptiPlex 3020"/> 			
+            </desk>				
+				        <desk y="0" x="1">			
+               <user name="robert.perkins" cn="Robert Perkins" title="Recruitment Consultant"
+                     telephonenumber="(+44) 0207 292 3789"
+                     email="robert.perkins@engagepsg.com"/>			
+               <computer name="lonw040" ip_address="192.168.10.102" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>			
+            </desk>
+				        <desk y="1" x="0">			
+               <user name="mark.gray" cn="Mark Gray" title="Leader, Sales &amp; Marketing Practice"
+                     telephonenumber="0207 292 3778"
+                     email="mark.gray@engagepsg.com"/>				
+               <computer name="lonw043" ip_address="192.168.10.101" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9021B"/>    		
+            </desk>
+				        <desk y="1" x="1">			    																		</desk>
+			      </pod>		
+			
+			      <pod y="11" x="4.5" height="4" width="2" title="Banking">
+				        <desk y="1" x="0">		 	
+               <user name="andrew.smith" cn="Andrew Smith" title="Senior Consultant"
+                     telephonenumber="020 7292 3784"
+                     email="andrew.smith@engagepsg.com"/> 			
+               <computer name="lonw035" ip_address="192.168.10.122" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>			
+            </desk>
+				        <desk y="1" x="1">			
+               <user name="harry.radcliffe" cn="" title="" telephonenumber="" email=""/>			
+               <computer name="lonw037" ip_address="192.168.10.126" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>			
+            </desk>
+				        <desk y="2" x="0">			
+               <user name="paula.johnson" cn="Paula Johnson" title="Business Operations Assistant"
+                     telephonenumber="0207 292 3770"
+                     email="paula.johnson@engagepsg.com"/>			
+               <computer name="" ip_address="" rough_memory="G" composshort="" manufacturer="" model=""/>					
+            </desk>
+				        <desk y="2" x="1">			
+               <user name="jon.price" cn="Jon Price"
+                     title="Head of Consulting | Marketing &amp; Advertising"
+                     telephonenumber="0207 292 3786"
+                     email="jonathan.price@engagepsg.com"/>				
+               <computer name="lonw053" ip_address="192.168.10.128" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9021B"/>			
+            </desk>
+				        <desk y="3" x="0">			
+               <user name="faye.barker" cn="Faye Barker" title="Business Operations Manager"
+                     telephonenumber="020 7292 3770"
+                     email="faye.barker@engagepsg.com"/> 			
+               <computer name="lonw050" ip_address="192.168.10.115" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>   		
+            </desk>
+				        <desk y="3" x="1">			
+               <user name="kevin.cruickshank" cn="Kevin Cruickshank" title="Group Managing Director"
+                     telephonenumber="020 7292 3770"
+                     email="kevin.cruickshank@engagepsg.com"/>		
+               <computer name="lonw038" ip_address="192.168.10.110" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3500 Series"/>			
+            </desk>		 		
+				     </pod>
+
+			      <pod y="8" x="8" height="2" width="1" title="Reception">&gt;
+				<desk y="1" x="0">			
+               <user name="(paula.johnston)" cn="" title="" telephonenumber="" email=""/>				
+               <computer name="lonw030" ip_address="192.168.10.114" rough_memory="1.9G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3125 Microtower PC"/>		
+            </desk>
+			      </pod>
+		    </office>
+		
+		    <office name="Norwich" domain="engagelondon" sitecode="nor" height="4" width="4">
+		
+			<!-- Mark Geraghty at top corner - Whelan	-->
+			<pod title="Engage Norwich" x="0.5" y="0.5" width="2" height="2">
+				        <desk y="0" x="0">	
+               <user name="simon.watson" cn="Simon Watson" title="Senior Consultant"
+                     telephonenumber="0207 292 3770"
+                     email="simon.watson@engagepsg.com"/>	 
+               <computer name="lonl001a" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>
+            </desk>
+				        <desk y="0" x="1">	
+               <user name="russell.edwards" cn="Russell Edwards" title="Senior Consultant"
+                     telephonenumber=""
+                     email="russell.edwards@engagepsg.com"/> 
+               <computer name="lonl001" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>	
+            </desk>
+				        <desk y="1" x="0">															</desk>
+				        <desk y="1" x="1">			  												</desk>
+			      </pod>   	
+			  	
+			      <printer name="manprinter" y="8" x="3.5"/> 
+			
+			      <!-- reception -->	
+	
+		</office>
+	  </company>
+
+	  <company name="TEC Group">
+		    <office name="Wallington" domain="domain" sitecode="wal" height="9" width="8">
+		
+			<!-- Outside Walls -->
+			<wall x="0" y="0" width=".25" height="4.5"/>
+			      <wall x="11" y="0" width=".25" height="8"/>
+			      <wall x="0" y="0" width="11" height="0.25"/>
+			      <wall x="0" y="8" width="11.25" height="0.25"/>
+			
+			
+			      <!-- IT Dividing Wall -->
+			<wall x="6.5" y="0" width=".25" height="3"/>
+						
+			      <!-- Toilet Walls -->
+			<wall x="0" y="5.5" width="3.95" height="0.25"/>
+			      <wall x="3.7" y="5.5" width=".25" height="2.75"/>
+			
+			      <!-- Admin Walls -->
+			<wall x="3.7" y="5.5" width="2.5" height="0.25"/>
+			      <wall x="6.2" y="5.5" width=".25" height="2.75"/>
+			
+			      <!-- Meeting Room Walls-->
+			
+			<wall x="6.2" y="5.5" width="2.5" height="0.25"/>
+			      <wall x="8" y="5.5" width=".25" height="2.75"/>
+			
+
+			      <!-- ports clockwise from top left -->
+			<port x="5" y="0.25" caption="8N 2P"/>
+			      <port x="6.5" y="0.25" caption="4P"/>
+			      <port x="7.5" y="0.25" caption="4N 2P"/>
+			      <port x="9" y="0.25" caption="2P"/>
+			      <port x="10.5" y="0.25" caption="6P"/>
+			
+			      <port x="10.9" y="2.5" caption="2P"/>
+			      <port x="10.9" y="4.5" caption="16N 2P"/>
+			      <port x="10.9" y="7.5" caption="4N 6P"/>
+			
+			      <port x="8" y="8" caption="8N 2P"/>
+			      <port x="4.5" y="8" caption="4P"/>
+			      <port x="3" y="8" caption="4N 6P"/>
+			      <port x="2" y="8" caption="4N 4P"/>
+			      <port x="1" y="8" caption="4N 2P"/>
+			
+			      <port x="5.6" y="3.5" caption="4N 2P"/>
+			      <port x="5.6" y="4" caption="2P"/>
+			
+			      <photo x="6.8" y="0.65" url="http://itsupport/photos/wallington/WallingtonServers.JPG"
+                caption="Servers"/>
+			      <photo x="6.8" y="0.8" url="http://itsupport/photos/wallington/WallingtonCupboard.JPG"
+                caption="Cupboard"/>
+			      <photo x="6.8" y="0.95"
+                url="http://itsupport/photos/wallington/WallingtonSwitchCables.JPG"
+                caption="Switch Cables"/>
+						
+			
+			      <pod title="Printers" x="7.2" y="3" width="1" height="2">
+			
+				        <printer x="0" y="1" name="Xerox Workcentre 7120"/>
+				
+			      </pod>
+			
+			      <pod title="Admin" x="4" y="6" width="4" height="4">
+				        <desk x="0" y="0">											
+               <computer name="walw31" ip_address="192.168.7.73" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9031A"/>				
+            </desk>
+				        <desk x="1" y="0">		
+               <user name="alisonpike" cn="Alison Pike" title="Office Manager"
+                     telephonenumber="+44 (0) 208 544 3401 (401)"
+                     email="alison.pike@tecgroup.net"/>			
+               <computer name="walw11" ip_address="192.168.7.72" rough_memory="4.0G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3125 Microtower PC"/> 				
+            </desk>
+				        <desk x="0" y="1">											
+               <computer name="walw21" ip_address="192.168.7.77" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3500 Series"/>				
+            </desk>
+				        <desk x="1" y="1">		
+               <user name="ibowers" cn="Imogen Bowers" title="Administrator"
+                     telephonenumber="+44 (0) 208 544 3404"
+                     email="imogen.bowers@tecgroup.net"/>				
+               <computer name="walw10" ip_address="192.168.7.70" rough_memory="4.0G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3125 Microtower PC"/>				
+            </desk>
+			      </pod>   	
+			
+			      <pod title="Meeting Room" x="6.5" y="5.5" width="1" height="1">
+			</pod>
+	
+			      <pod title="Spare Desks" x="0.5" y="0.5" width="2" height="3">
+				        <desk x="0" y="0">			
+               <user name="ssell" cn="Siobhan Sell" title="Major Account Manager"
+                     telephonenumber="+44 (0) 208 544 3421 (421)"
+                     email="siobhan.sell@tecgroup.net"/>				
+               <computer name="walw22" ip_address="192.168.7.87" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9021B"/>				
+            </desk>
+				        <desk x="1" y="0">			
+               <user name="achelghoum" cn="Amira Chelghoum" title="Practice Lead | Downstream"
+                     telephonenumber=""
+                     email="amira.chelghoum@tecgroup.net"/>			
+               <computer name="walw33" ip_address="192.168.7.71" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3500 Series"/>				
+            </desk>   
+				        <desk x="0" y="1">																						</desk>
+				        <desk x="1" y="1">			 																			</desk>
+				        <desk x="0" y="2">			
+               <user name="will.atkinson" cn="Will Atkinson" title="Chief Executive Officer"
+                     telephonenumber="+44 (0) 20 8544 3400"
+                     email="will.atkinson@tecgroup.net"/> 		
+               <computer name="TGL06" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>				
+            </desk>
+				        <desk x="1" y="2">			  									
+               <computer name="walw21" ip_address="192.168.7.77" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3500 Series"/>				
+            </desk>
+			      </pod> 
+			
+			      <pod title="Scott's Team" x="4" y="0.5" width="2" height="3">
+				        <desk x="0" y="0">			
+               <user name="dbowers" cn="David Bowers" title="VP | Europe &amp; Africa"
+                     telephonenumber="+44 (0) 20 8544 3436"
+                     email="david.bowers@tecgroup.net"/>				
+               <computer name="manw02" ip_address="192.168.7.77" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Generic"
+                         model="System Product Name"/>				
+            </desk>
+				        <desk x="1" y="0">			
+               <user name="rbird" cn="Ray Bird" title="Associate Director | Life Sciences"
+                     telephonenumber="0208 544 3414"
+                     email="ray.bird@tecgroup.net"/>  				
+               <computer name="walw05" ip_address="192.168.7.78" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Generic"
+                         model="System Product Name"/>				
+            </desk>   
+				        <desk x="0" y="1">			
+               <user name="efry" cn="" title="" telephonenumber="" email=""/>	  			
+               <computer name="walw03" ip_address="192.168.7.80" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3500 Series"/>				
+            </desk>
+				        <desk x="1" y="1">			
+               <user name="mmelody" cn="Martin Melody" title="Recruitment Consultant"
+                     telephonenumber="+44 (0) 20 8544 3400"
+                     email="martin.melody@tecgroup.net"/>	  			
+               <computer name="tglw01" ip_address="192.168.9.105" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Generic"
+                         model="System Product Name"/>				
+            </desk>
+				        <desk x="0" y="2">			
+               <user name="darren.hall" cn="Darren Hall" title="Practice Lead | Medical Device"
+                     telephonenumber="0208 544 3431"
+                     email="darren.hall@tecgroup.net"/> 			
+               <computer name="walw02" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>											
+            </desk>
+				        <desk x="1" y="2">			
+               <user name="ssearch" cn="Sam Search" title="Recruitment Consultant"
+                     telephonenumber="+44 (0) 208 544 3420 (420)"
+                     email="sam.search@tecgroup.net"/>				
+               <computer name="walw29" ip_address="192.168.7.76" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>				
+            </desk>
+			      </pod> 
+				
+			      <pod title="presentation PC" x="0" y="3.5" height="1" width="1">
+				        <desk x="0" y="0">
+               <computer name="walwtv" ip_address="192.168.7.75" rough_memory="4.1G"
+                         composshort="Win8.1"
+                         manufacturer="Acer"
+                         model="Veriton N4620G"/> 
+            </desk>
+			      </pod>
+				
+		    </office>
+	
+		    <office name="Manchester" domain="domain" sitecode="man" height="8" width="6">
+
+			      <wall y="0" x="0" height="5" width="0.25"/>
+			
+			      <pod x="0.5" y="0.5" height="2" width="1">
+				        <desk y="0" x="0"> 																			</desk>
+				        <desk y="1" x="0">																			</desk>
+			      </pod>
+			
+			      <pod x="0" y="5.5" height="2" width="1">
+				        <desk y="0" x="0"> 																			</desk>
+				        <desk y="1" x="0">																			</desk>
+			      </pod>
+
+			      <pod x="5" y="0.5" height="2" width="1">
+				        <desk y="0" x="0"> 								</desk>
+				        <desk y="1" x="0">								</desk>				
+			      </pod>
+			
+			      <pod x="4" y="3" height="2" width="2">
+				        <desk y="0" x="1"> 							</desk>
+				        <desk y="0.5" x="0">																		</desk>
+				        <desk y="1" x="1">	
+               <user name="sboswell" cn="" title="" telephonenumber="" email=""/>	
+               <computer name="manl08" ip_address="192.168.18.158" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="Latitude E5440"/>					
+            </desk>		
+			      </pod>
+			
+			
+			      <pod x="4" y="5.5" height="2" width="2">
+				        <desk y="0" x="1"> 				
+               <computer name="manw02" ip_address="192.168.7.77" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Generic"
+                         model="System Product Name"/>					
+            </desk>
+				        <desk y="0.5" x="0">																		</desk>
+				        <desk y="1" x="1">				
+               <computer name="walw09" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>						
+            </desk>
+			      </pod>
+	
+	
+		    </office>
+
+		    <office name="Houston" domain="domain" sitecode="hou" height="5" width="6">
+		
+			      <pod x="1" y="1" height="3" width="2">
+				        <desk y="0" x="0">	
+               <user name="ajackson" cn="Adam Jackson" title="Team Leader - Chemicals"
+                     telephonenumber="+1 713 964 2603"
+                     email="adam.jackson@tecgroup.net"/>	 	
+            </desk>
+				        <desk y="0" x="1">	
+               <user name="mtoner" cn="Matt Toner" title="Managing Consultant | Contract Solutions"
+                     telephonenumber="+1 713 964 2617"
+                     email="matt.toner@tecgroup.net"/>	 		
+            </desk>
+				        <desk y="1" x="0">	
+               <user name="mavel.sifontes" cn="Mavel Sifontes"
+                     title="Senior Researcher | Latin America"
+                     telephonenumber="+1 713 964 2610"
+                     email="mavel.sifontes@tecgroup.net"/> 																
+            </desk>
+				        <desk y="1" x="1">	
+               <user name="mike.green" cn="Mike Green" title="Recruitment Consultant"
+                     telephonenumber="+1 713 964 2612"
+                     email="mike.green@tecgroup.net"/> 		  														
+            </desk>
+				        <desk y="2" x="0">	
+               <user name="sangell" cn="Scott Angell" title="Recruitment Manager"
+                     telephonenumber="+1 713 964 2611"
+                     email="scott.angell@tecgroup.net"/> 	 																
+            </desk>
+				        <desk y="2" x="1">	 	
+               <computer name="tghl01" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/> 			
+            </desk>			
+			      </pod>
+		
+		    </office>
+
+		    <!-- not sure why this was renamed to London / lon ... -->
+		<office name="Tec London" domain="domain" sitecode="tgl" height="10" width="10">
+		
+			      <wall x="6.75" y="0" height="4" width="0.25"/>
+			      <wall x="3" y="2.5" height="0.25" width="4"/>
+			      <wall x="3" y="4" height="4" width="0.25"/>
+			      <wall x="0" y="9.5" height="0.25" width="3"/>
+			
+			      <pod title="4 - by comms" x="4" y="0.25" height="2" width="2">
+				        <desk x="0" y="0" name="4B"> </desk>
+				        <desk x="1" y="0" name="4D">  
+               <computer name="" ip_address="" rough_memory="G" composshort="" manufacturer="" model=""/>		 
+            </desk>
+				        <desk x="0" y="1" name="4A">  
+               <computer name="tgll09" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>
+            </desk>
+				        <desk x="1" y="1" name="4C"> </desk>
+			      </pod>
+
+			      <pod title="TV" x="0" y="0.25" height="1" width="1">
+					       <desk x="0" y="0"> 
+               <computer name="tglwtv" ip_address="192.168.9.199" rough_memory="3.6G" composshort="Win7"
+                         manufacturer="Acer"
+                         model="Veriton N2620G"/>	
+            </desk>
+			      </pod>
+			
+			      <pod title="3" x="2" y="0.25" height="2" width="2">
+				        <desk x="0" y="0" name="3B" netport="1">  </desk>
+				        <desk x="1" y="0" name="3D" netport="2">	
+               <computer name="tgll01" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>	 
+            </desk>
+				        <desk x="0" y="1" name="3A">  	</desk>
+				        <desk x="1" y="1" name="3C">   	 </desk>
+			      </pod>
+
+			      <pod title="2 - by big window" x="0" y="3.5" height="2" width="2">
+				        <desk x="0" y="0" name="2D"> 
+               <user name="liredale" cn="" title="" telephonenumber="" email=""/>
+               <computer name="tgl07" ip_address="192.168.9.103" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="250 G2 Notebook PC"/> 
+            </desk>
+				        <desk x="1" y="0" name="2C">  		 
+               <computer name="tglw01" ip_address="192.168.9.105" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Generic"
+                         model="System Product Name"/> 
+            </desk>
+				        <desk x="0" y="1" name="2B"> 
+               <user name="mmelody" cn="Martin Melody" title="Recruitment Consultant"
+                     telephonenumber="+44 (0) 20 8544 3400"
+                     email="martin.melody@tecgroup.net"/> 
+               <computer name="tglw01" ip_address="192.168.9.105" rough_memory="4.2G" composshort="Win7"
+                         manufacturer="Generic"
+                         model="System Product Name"/> 
+            </desk>
+				        <desk x="1" y="1" name="2A"> 
+               <user name="ssell" cn="Siobhan Sell" title="Major Account Manager"
+                     telephonenumber="+44 (0) 208 544 3421 (421)"
+                     email="siobhan.sell@tecgroup.net"/> 	 
+               <computer name="wall01" ip_address="192.168.7.74" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Hewlett-Packard"
+                         model="350 G2"/> 
+            </desk>
+			      </pod>
+
+			      <pod title="1 - by door" x="0" y="6.75" height="2" width="2">
+				        <desk x="0" y="0" name="1D"> 
+               <user name="dbowers" cn="David Bowers" title="VP | Europe &amp; Africa"
+                     telephonenumber="+44 (0) 20 8544 3436"
+                     email="david.bowers@tecgroup.net"/> 
+               <computer name="tgll02" ip_address="192.168.9.101" rough_memory="6.1G"
+                         composshort="Win8.1"
+                         manufacturer="SAMSUNG ELECTRONICS CO."
+                         model="530U3C/530U4C/532U3C"/>	 	
+            </desk>
+				        <desk x="1" y="0" name="1C">  														</desk>
+				        <desk x="0" y="1" name="1B"> 
+               <user name="will.atkinson" cn="Will Atkinson" title="Chief Executive Officer"
+                     telephonenumber="+44 (0) 20 8544 3400"
+                     email="will.atkinson@tecgroup.net"/> 
+               <computer name="tgll06" ip_address="192.168.7.82" rough_memory="6.1G"
+                         composshort="Win8.1"
+                         manufacturer="SAMSUNG ELECTRONICS CO."
+                         model="530U3C/530U4C/532U3C"/>	
+            </desk>
+				        <desk x="1" y="1" name="1A"> 
+               <user name="" cn="" title="" telephonenumber="" email=""/> 
+               <computer name="" ip_address="" rough_memory="G" composshort="" manufacturer="" model=""/>	 
+            </desk>
+			      </pod>	
+						
+		    </office>
+
+		    <office name="Dubai" domain="domain" sitecode="dub" height="7.75" width="10">
+		
+			      <wall x="9.75" y="0" height="2.5" width="0.25"/>
+			      <wall x="8" y="2.5" height="0.25" width="2"/>
+			      <wall x="8" y="2.5" height="7" width="0.25"/>
+			      <wall x="0" y="9.5" height="0.25" width="3"/>		
+			
+			      <pod x="8.75" y="1.5" height="1" width="1">
+				        <desk x="0" y="0">
+               <computer name="dubsdc01" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/> 
+            </desk>
+			      </pod>
+			
+			      <pod x="5.75" y="3" height="5" width="2">
+				        <desk x="0.5" y="0">
+               <user name="ggibson" cn="Grant Gibson" title="Regional Director"
+                     telephonenumber="+971 (0) 4 310 3912"
+                     email="grant.gibson@tecgroup.net"/>			
+               <computer name="dubl03" ip_address="192.168.32.54" rough_memory="8.3G" composshort="Win7"
+                         manufacturer="Lenovo"
+                         model="ThinkPad X230"/>
+            </desk>
+				        <desk x="1" y="1"/>
+				        <desk x="0" y="1"/>
+				        <desk x="1" y="2">
+               <user name="gdzieza" cn="Gosia Dzieza" title="Recruitment Consultant"
+                     telephonenumber="+971 (0) 4 310 3916"
+                     email="gosia.dzieza@tecgroup.net"/>				
+               <computer name="dubl08" ip_address="192.168.32.56" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="Latitude 3440"/>
+            </desk>
+				        <desk x="0" y="2">
+               <user name="pmehta" cn="" title="" telephonenumber="" email=""/>				
+               <computer name="dubl06" ip_address="192.168.32.55" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Hewlett-Packard"
+                         model="ProBook 4540s"/>
+            </desk>
+				        <desk x="0" y="3">
+               <user name="lwillmott" cn="" title="" telephonenumber="" email=""/>			
+               <computer name="dubl09" ip_address="192.168.32.56" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="Latitude 3440"/>
+            </desk>
+				        <desk x="1" y="3">
+               <user name="aforsyth" cn="Ayden Forsyth" title="Account Manager"
+                     telephonenumber="+971 (0) 4 310 3913"
+                     email="ayden.forsyth@tecgroup.net"/>			
+               <computer name="dubl05" ip_address="" rough_memory="G" composshort="" manufacturer=""
+                         model=""/>
+            </desk>
+			      </pod>
+			
+			      <pod x="3.5" y="3" height="5" width="2">
+				        <desk x="0.5" y="0">	</desk>
+				        <desk x="1" y="1">
+               <user name="dflemming" cn="" title="" telephonenumber="" email=""/>			
+               <computer name="dubl01" ip_address="192.168.32.51" rough_memory="4.0G" composshort="Win7"
+                         manufacturer="Lenovo"
+                         model="ThinkPad X230"/>
+            </desk>
+				        <desk x="0" y="1">
+               <user name="cholbrook" cn="Craig Holbrook" title="Senior Recruitment Consultant"
+                     telephonenumber="+971 (0) 4 310 3918"
+                     email="craig.holbrook@tecgroup.net"/>			
+               <computer name="dubl10" ip_address="192.168.32.53" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="Latitude 3440"/>
+            </desk>
+				        <desk x="1" y="2"/>
+				        <desk x="0" y="2"/>
+				        <desk x="0" y="3">
+               <user name="cflemming" cn="" title="" telephonenumber="" email=""/>			
+               <computer name="dubl04" ip_address="192.168.32.51" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="Latitude 3440"/>
+            </desk>
+				        <desk x="1" y="3">
+               <user name="Milan.Batth" cn="Milan Batth" title="Specialist Recruitment Consultant"
+                     telephonenumber="+971 (0) 4 310 3915"
+                     email="milan.batth@tecgroup.net"/>			
+               <computer name="dubl07" ip_address="192.168.32.52" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="Latitude 3440"/>
+            </desk>
+			      </pod>
+			
+			      <pod x="0.8" y="1" height="2" width="3">
+				        <desk x="0" y="0"/>
+				        <desk x="0" y="1"/>
+				        <desk x="1" y="0"/>
+				        <desk x="1" y="1"/>
+				        <desk x="2" y="0"/>
+				        <desk x="2" y="1"/>
+			      </pod>
+			
+			      <pod x="0.25" y="6" height="1" width="1">
+				        <desk x="0" y="0">
+               <user name="(boardroom PC)" cn="" title="" telephonenumber="" email=""/>
+               <computer name="dubw01" ip_address="192.168.32.66" rough_memory="4.3G"
+                         composshort="Win8.1"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro3500 Series"/> 
+            </desk>
+			      </pod>			
+						
+		    </office>
+		
+
+	  </company>		
+	  <company name="Net Talent">
+		    <office name="Edinburgh NetTalent" domain="fpsgglasgow" sitecode="edi" height="12"
+              width="9">
+
+			
+				     <pod title="Pod 1" x=".50" y=".25" width="2" height="4">
+					       <desk y="0" x="0">			
+               <user name="dgibb" cn="Derek Gibb" title="Sales Director"
+                     telephonenumber="0131 270 6627"
+                     email="dgibb@nettalent.co.uk"/>			
+               <computer name="ediwnettalent17" ip_address="192.168.5.62" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>		
+            </desk>
+					       <desk y="0" x="1">											
+               <computer name="ediwnettalent09" ip_address="192.168.5.61" rough_memory="8.3G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3135 Microtower PC"/>	
+            </desk>
+					       <desk y="1" x="0">			
+               <user name="elogan" cn="Emma Logan" title="Recruitment Consultant"
+                     telephonenumber="0131 270 6635"
+                     email="elogan@nettalent.co.uk"/>			
+               <computer name="ediwnettalent40" ip_address="192.168.5.52" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="OptiPlex 3020"/>		
+            </desk>
+					       <desk y="1" x="1">											
+               <computer name="ediwnettalent26" ip_address="192.168.5.56" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+					       <desk y="2" x="0">											
+               <computer name="ediwnettalent23" ip_address="192.168.5.73" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+					       <desk y="2" x="1">													</desk>
+					       <desk y="3" x="0">													</desk>
+					       <desk y="3" x="1">													</desk>
+				     </pod>
+				
+				     <pod title="Pod 2" x="3.5" y=".25" width="2" height="4">
+					       <desk y="0" x="0">			
+               <user name="awall" cn="Amy-Simone Wall" title="Senior Recruitment Executive"
+                     telephonenumber="0131 270 6632"
+                     email="awall@nettalent.co.uk"/>	    	
+               <computer name="ediwnettalent28" ip_address="192.168.5.129" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>			
+            </desk>
+					       <desk y="0" x="1">			
+               <user name="gdonaldson" cn="Georgia Donaldson" title="Recruitment Executive"
+                     telephonenumber="0131 270 6619"
+                     email="gdonaldson@nettalent.co.uk"/>		
+               <computer name="ediwnettalent27" ip_address="192.168.5.59" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>	
+            </desk>
+					       <desk y="1" x="0">			
+               <user name="aszymanczak" cn="Agata Szymanczak" title="Recruitment Executive"
+                     telephonenumber="0131 270 6618"
+                     email="aszymanczak@nettalent.co.uk"/>		
+               <computer name="ediwnettalent08" ip_address="192.168.5.54" rough_memory="4.0G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3135 Microtower PC"/>			
+            </desk>
+					       <desk y="1" x="1">			
+               <user name="ddalrymple" cn="Darren Dalrymple" title="Account Director"
+                     telephonenumber="0131 270 6631"
+                     email="ddalrymple@nettalent.co.uk"/>		
+               <computer name="ediwnettalent14" ip_address="192.168.5.58" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>			
+            </desk>
+					       <desk y="2" x="0">			
+               <user name="arodgie" cn="Andrew Rodgie" title="Recruitment Executive"
+                     telephonenumber="0131 270 6634"
+                     email="arodgie@nettalent.co.uk"/>			
+               <computer name="ediwnettalent18" ip_address="" rough_memory="G" composshort=""
+                         manufacturer=""
+                         model=""/>		
+            </desk>
+					       <desk y="2" x="1">			
+               <user name="bmaguire" cn="Brian Maguire" title="Recruitment Executive"
+                     telephonenumber="0131 270 6623"
+                     email="bmaguire@nettalent.co.uk"/>		
+               <computer name="ntgw03" ip_address="192.168.5.50" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="OptiPlex 3020"/>				
+            </desk>
+					       <desk y="3" x="0">					</desk>
+					       <desk y="3" x="1">					</desk>
+				     </pod>
+				
+				     <pod title="Pod 3" x="6.5" y=".25" width="2" height="4">
+					       <desk y="0" x="0">			
+               <user name="hleathem" cn="Henry Leathem" title="Account Manager"
+                     telephonenumber="0131 270 6612"
+                     email="hleathem@nettalent.co.uk"/>		
+               <computer name="ediwnettalent25" ip_address="192.168.5.103" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+					       <desk y="0" x="1">			
+               <user name="ywhelan" cn="Yvonne Whelan" title="CEO" telephonenumber="0131 270 6616"
+                     email="ywhelan@nettalent.co.uk"/>			
+               <computer name="ediwnettalent21" ip_address="192.168.5.96" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+					       <desk y="1" x="0">			
+               <user name="amccue" cn="Alexandra McCue" title="Recruitment Executive"
+                     telephonenumber="0131 270 6620"
+                     email="amccue@nettalent.co.uk"/>			
+               <computer name="ediwnettalent24" ip_address="192.168.5.60" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+					       <desk y="1" x="1">									</desk>
+					       <desk y="2" x="0">			
+               <user name="jtelford" cn="Joseph Telford" title="Account Manager"
+                     telephonenumber="0131 270 6617"
+                     email="jtelford@nettalent.co.uk"/>		
+               <computer name="ediwnettalent04" ip_address="192.168.5.126" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="PRO 3400 SERIES MT"/>	
+            </desk>
+					       <desk y="2" x="1">									</desk>
+					       <desk y="3" x="0">				</desk>
+					       <desk y="3" x="1">			
+               <user name="hclelland" cn="Helen Clelland" title="Business Support Manager"
+                     telephonenumber="0131 270 6614"
+                     email="hclelland@nettalent.co.uk"/>		
+               <computer name="ediwnettalent30" ip_address="192.168.5.57" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>		
+            </desk>
+				     </pod>
+	
+	        <!-- Left Wall -->
+				<wall x="0" y="6" width="3.5" height="0.5"/>		
+	        <!-- Middle Wall -->			
+				<wall x="4" y="6" width="3" height="0.5"/>
+	        <!-- Right Wall -->			
+				<wall x="7.5" y="6" width="2" height="0.5"/>
+	
+	        <!-- Bottom Wall -->
+				<wall x="0" y="8" width="5.5" height="0.5"/>	
+	        <!-- Vertical Wall -->
+				<wall x="5.5" y="8" width="0.5" height="4"/>
+
+	
+		    </office>
+	  </company>
+		<company name="FPSG">
+		    <office name="Edinburgh FPSG" domain="fpsgglasgow" sitecode="edc" height="12" width="9">
+
+			
+				     <pod title="Pod 1" x=".50" y=".25" width="3" height="2">
+					       <desk y="0" x="0">			
+               <user name="jagnew" cn="John Agnew" title="Group Managing Director"
+                     telephonenumber="0131 270 6626"
+                     email="jagnew@fpsg.com"/>				
+               <computer name="edilconnect10" ip_address="192.168.3.77" rough_memory="4.2G"
+                         composshort="Win8.1"
+                         manufacturer="Dell"
+                         model="Latitude 3440"/>		
+            </desk>
+					       <desk y="0" x="1">			
+               <user name="(aspratt)" cn="" title="" telephonenumber="" email=""/>					
+            </desk>
+					       <desk y="0" x="2">			
+               <computer name="ediwconnect12" ip_address="192.168.5.56" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>		
+            </desk>
+					       <desk y="1" x="0">										</desk>
+					       <desk y="1" x="1">			
+               <user name="jdownton" cn="Jeremy Downton" title="Consultant"
+                     telephonenumber="0131 270 6601"
+                     email="jdownton@fpsg.com"/>			
+               <computer name="ediwconnect02" ip_address="192.168.3.73" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3300 Series MT"/>		
+            </desk>
+					       <desk y="1" x="2">										</desk>
+				     </pod>				
+				
+				     <pod title="Pod 2" x=".50" y="3.25" width="3" height="2">
+					       <desk y="0" x="0">			<!--<user name="ajacob" />-->				<computer name="ediwconnect16" ip_address="192.168.3.79" rough_memory="2.0G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>		
+            </desk>
+					       <desk y="0" x="1">			
+               <user name="scaldwell" cn="Scott Caldwell" title="Director"
+                     telephonenumber="0131 270 6610"
+                     email="scaldwell@fpsg.com"/>			
+               <computer name="ediwconnect15" ip_address="192.168.3.76" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>		
+            </desk>
+					       <desk y="0" x="2">			
+               <user name="ckingston" cn="Cecily Kingston" title="Search Consultant"
+                     telephonenumber="0131 270 6608"
+                     email="ckingston@fpsg.com"/>			
+               <computer name="ediwconnect014" ip_address="192.168.3.84" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>		
+            </desk>   
+            <!-- computer seems to have an extra zero in name -->
+					<desk y="1" x="0">			
+               <user name="ooak" cn="Oliver Oak" title="Search Consultant"
+                     telephonenumber="(+44/0) 131 270 6629"
+                     email="ooak@fpsg.com"/>				
+               <computer name="ediwconnect19" ip_address="192.168.3.74" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+					       <desk y="1" x="1">			
+               <user name="nking" cn="Nigel King" title="Senior Recruitment Consultant"
+                     telephonenumber="0131 270 6622"
+                     email="nking@fpsg.com"/>				
+               <computer name="ediwconnect18" ip_address="192.168.3.78" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+					       <desk y="1" x="2">			</desk>
+				     </pod>				
+				
+				     <pod title="Pod 3" x=".50" y="6.25" width="3" height="2">
+					       <desk y="0" x="1">			
+               <user name="jcross" cn="Jason Cross" title="Recruitment Consultant"
+                     telephonenumber="0131 270 6604"
+                     email="jcross@fpsg.com"/>				
+               <computer name="ediwconnect22" ip_address="192.168.3.58" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9031A"/>		
+            </desk>
+					       <desk y="0" x="2">								</desk>
+					       <desk y="1" x="1">			
+               <user name="klloyd" cn="Kirsty Lloyd" title="Managing Consultant"
+                     telephonenumber="0131 270 6613"
+                     email="klloyd@fpsg.com"/>				
+               <computer name="ediwconnect23" ip_address="192.168.3.59" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9031A"/>		
+            </desk>
+					       <desk y="1" x="2">			
+               <user name="sbaird" cn="Samantha Baird" title="Recruitment Consultant"
+                     telephonenumber="0131 270 6630"
+                     email="sbaird@fpsg.com"/>				
+               <computer name="ediwconnect21" ip_address="192.168.3.71" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+				     </pod>				
+				
+				     <pod title="Pod 4" x="5.50" y=".25" width="3" height="2">
+					       <desk y="0" x="1">			
+               <user name="cknowles" cn="Chris Knowles" title="IT Recruitment Consultant"
+                     telephonenumber="0131 270 6628"
+                     email="cknowles@fpsg.com"/>				
+               <computer name="ediwconnect25" ip_address="192.168.3.83" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="ZOOSTORM"
+                         model="7876-9021B"/>		
+            </desk>
+					       <desk y="0" x="2">			
+               <user name="mtaggart" cn="Michael Taggart" title="Regional Manager"
+                     telephonenumber="0131 270 6605"
+                     email="mtaggart@fpsg.com"/>				
+               <computer name="ediwconnect24" ip_address="192.168.3.75" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+					       <desk y="1" x="1">			
+               <user name="mfatnani" cn="" title="" telephonenumber="" email=""/>				
+               <computer name="ediwconnect26" ip_address="192.168.3.69" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 3400 Series MT"/>		
+            </desk>
+					       <desk y="1" x="2">			
+               <user name="jholt" cn="John Holt" title="Recruitment Consultant"
+                     telephonenumber="0131 270 6607"
+                     email="jholt@fpsg.com"/>					
+               <computer name="ediwconnect20" ip_address="192.168.3.70" rough_memory="4.2G"
+                         composshort="Win7"
+                         manufacturer="Hewlett-Packard"
+                         model="Pro 4300 SFF PC"/>		
+            </desk>
+				     </pod>
+				
+				     <wall x="6" y="4" width="3" height="0.25"/>
+				     <wall x="6" y="4" width="0.25" height="3.5"/>
+				
+				     <desk y="4.25" x="7">			
+            <user name="(edcwtv\boardroom)" cn="" title="" telephonenumber="" email=""/>				
+            <computer name="edcwtv" ip_address="192.168.3.54" rough_memory="4.2G"
+                      composshort="Win8.1"
+                      manufacturer="Acer"
+                      model="Veriton N4630G"/>		
+         </desk>
+				     <desk y="8.25" x="7">			
+            <user name="mdichiu" cn="Madalina Dichiu" title="Receptionist"
+                  telephonenumber="0131 270 6666"
+                  email="mdichiu@fpsg.com"/>				
+            <computer name="ediwreception01" ip_address="192.168.3.82" rough_memory="4.2G"
+                      composshort="Win7"
+                      manufacturer="ZOOSTORM"
+                      model="7876-8021B"/>		
+         </desk>
+				
+					    <!-- Right Wall -->			
+				<wall x="0" y="9" width="5" height="0.5"/>
+	
+		    </office>
+	  </company>
+</plans>

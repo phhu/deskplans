@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<plans xmlns:svg="http://www.w3.org/2000/svg">
+
+	<site name="Glasgow" height="23" width="15" sitecode="gla">
+
+		<wall x="8" y="0" height="10" width="0.25" />
+		<wall x="12" y="0" height="10" width="0.25" />
+		
+		<office name="Glasgow myBPOS" domain="fpsgglasgow" height="8.5" width="10.5" x="7" y="12">
+			
+			<!-- MyBPOS -->	
+			<wall x="3.5" y="0" width="4" height="2.5" /> <!-- Elevator -->
+			<wall x="0" y="7.75" width="10.5" height=".3" /> <!-- Windows -->
+			<wall x="9.5" y="0" width="0.25" height="5" /> <!-- Back Wall -->
+			<wall x="0" y="2.25" width="3" height=".25" /> <!-- Reception -->
+			
+			<company name="myBPOS" logo="http://www.mybpos.net/assets/img/logo2.png">
+
+				<pod title="Reception" x="2" y=".25" width="1" height="2">
+					<desk y="0" x="0">			<user name="sdonnelly" />			<computer name="glawmybpos034"/>		</desk>
+					<desk y="1" x="0">			<user name="ahamilton" />				<computer name="glawmybpos031"/>		</desk>
+				</pod> 
+
+				<printer y="3.5" x="0" name="GLAPMYBPOS" />
+				
+				<pod title="Corp services" x="2" y="4.75" width="2" height="3">
+					<desk y="0" x="0">												<computer name="glawmybpostime"/> </desk> 
+					<desk y="1" x="0">			<user name="ksmart" /> 				<computer name="glawmybpos039"/>		</desk>
+					<desk y="2" x="0">			<user name="cdoherty" />			<computer name="glawmybpos020"/> 		</desk>
+					<desk y="0" x="1">			<user name="sknox" />				<computer name="glawmybpos027"/>    	</desk>
+					<desk y="1" x="1">			<user name="gpeters" />				<computer name="glawmybpos025"/>		</desk>
+					<desk y="2" x="1">			<user name="rlittle" />				<computer name="glawmybpos040"/>		</desk>   <!-- <computer name="glawmybpos038"/> -->
+				</pod>  
+				
+				<pod title="Credit Control" x="4.25" y="3.75" width="2" height="4">
+					<desk y="1" x="0">			<user name="rdaly" />				<computer name="glawmybpos041"/>		</desk> 
+					<desk y="2" x="0">			<!--<user name="estill" />    -->  		<computer name="glawmybpos032"/>		</desk>
+					<desk y="3" x="0">			<user name="mbrown" />				<computer name="glawmybpos036"/>		</desk>
+					<desk y="1" x="1">			<user name="emccalden" />         	<computer name="glawmybpos029"/>		</desk>
+					<desk y="2" x="1">			<user name="rmcdonald" />			<computer name="glawmybpos022"/>		</desk>
+					<desk y="3" x="1">			<user name="rwelsh" />				<computer name="glawmybpos026"/>		</desk>
+				</pod>
+				
+				<pod title="Finance/IT" x="6.5" y="4.75" width="2" height="3">
+				 <desk y="0" x="0">				<user name="phughson" />			<computer name="glalmybpos006"/>		</desk> <!-- smclean was on <computer name="glawmybpos010"/>	 -->
+				 <desk y="0" x="1">				<user name="sleverage" />			<computer name="glawmybpos004"/>		</desk>
+				 <desk y="1" x="0">				<user name="igarrow" />				<computer name="glawmybpos045"/>		</desk>  
+				 <desk y="1" x="1">				<user name="kknox" />				<computer name="glawmybpos035"/>		</desk>
+				 <desk y="2" x="0">				<user name="jfraser" />				<computer name="glalmybpos005"/>		</desk> 					
+				 <desk y="2" x="1">				<user name="rwatson" />				<computer name="glawmybpos043"/>		</desk>
+				</pod>
+								
+				<pod title="Finance" x="8" y="1.25" width="1" height="2">				
+				 <desk y="0" x="0">				<user name="lesley.taylor" />		<computer name="glawmybpos030"/>		</desk>    
+				 <desk y="1" x="0">				<user name="mdeady" />				<computer name="glawmybpos037"/>		</desk>
+				</pod>
+				<pod  title="Casa del Capitan" x="9" y="6.75" width="1" height="1">
+				 <desk y="0" x="0">				<user name="jhailstone" />			<computer name="glawcompello01"/>		</desk>
+				</pod>  
+
+			</company>
+			  
+		</office>
+
+
+		
+		<office name="Glasgow FPS" domain="fpsgglasgow" height="14" width="10.5"  x="0" y="0">
+			
+			
+			<company name="FPS">
+				
+
+				<wall x="0" y="0.4" height="0.3" width="0.3" />
+				
+				<port x="0" y="0.65" 	caption="01/A/02 D1-8"/>
+				<port x="0" y="0.8" 	caption="01/A/023 D1-4"/>
+
+				<!-- big pillar -->
+				<wall x="5" y="6.5" 		height="0.5" width="0.5" />
+				<port x="5" y="6.35" 		caption="01/A/23 D5-8" />
+				<port x="5.35" y="6.35" 	caption="01/A/24 D1-8" />		
+
+				<port x="0" y="3.65" 		caption="01/A/25 D1-4"/>
+				<port x="0" y="3.8" 		caption="01/A/15 D1-8"/>
+				<wall x="0" y="5.5" 		height="0.3" width="0.3" />
+				
+				<port x="0" y="6.5" 		caption="01/A/30 D5-8"  />
+				<port x="0" y="6.65" 		caption="01/A/14 D1-8"  />
+				<port x="3.5" y="6.65" 		caption="FP 01/A/17 D5-8"  />
+				
+				<!-- start at top corner - Chris Muir	-->
+				<pod x="0.4" y="0.25" width="5" height="2" title="FPS - Ol and Gas">
+				 <desk y="0" x="0">		<user name="cmuir" />				<computer name="glawfps035"/>				</desk>
+				 <desk y="1" x="0">		<user name="cblack" />				<computer name="glawfps053"/>				</desk>
+				 <desk y="0" x="1">		<user name="cwalker" />				<computer name="glawfps025"/>				</desk>
+				 <desk y="1" x="1">		<user name="sshaw" />				<computer name="glawfps033"/>				</desk>  
+				 <desk y="1" x="2">		<user name="twallace" />            <computer name="glawfps036"/>				</desk>
+				 <desk y="0" x="2">		<user name="smcfaulds" />			<computer name="glawfps041" />				</desk>
+				 <desk y="0" x="3">		<user name="fwhyte" />				<computer name="glawfps046"/>				</desk>
+				 <desk y="1" x="3">		<user name="lmurray" />				<computer name="glawfps054"/>				</desk>
+				 <desk y="0.5" x="4">	<user name="gmaitland" />			<computer name="glawfps026"/>				</desk> 
+				</pod>   	
+				
+				<port x="5" y="0" caption="??? - 6x2" />
+				
+				<pod title="FPS - boss" x="5.5" y="0" width="1" height="1" >
+				 <desk y="0" x="0">		<user name="jscott" />				<computer name="glawfps032"/>				</desk>		 
+				</pod>
+				
+				<pod title="FPS - aviation" x="0.5" y="3" width="5" height="2" >
+					<desk y="0" x="0">		<user name="kbiggart" />		<computer name="glawfps049"/>				</desk>
+					<desk y="0" x="1">		<user name="hsawkins" />		<computer name="glawfps042"/>				</desk> 
+					<desk y="0" x="2">		<user name="kcripps" />			<computer name="glawfps023"/>				</desk>
+					<desk y="1" x="0">		<user name="randerson" />		<computer name="glawfps048"/>				</desk>
+					<desk y="1" x="1">		<user name="lwalker" />		 	<computer name="glawfps034"/>				</desk>
+					<desk y="1" x="2">		<user name="bmcdougall" />		<computer name="glawfps001"/>				</desk>	
+					<desk y="0" x="3">					</desk> 
+					<desk y="1" x="3">																					</desk> 
+					<desk y="0.5" x="4">	<user name="jreid" />			<computer name="glawfps051"/>				</desk>
+				</pod>			
+				
+				<pod title="FPS construction and trades" x="0.5" y="7" width="5" height="2" >			
+				 <desk y="0" x="0">		<user name="garmstrong" />			<computer name="glawfps044" />				</desk>
+				 <desk y="0" x="1">		<user name="dhamilton" />			<computer name="glawfps59" />				</desk>
+				 <desk y="0" x="2">		<user name="yheelan" />				<computer name="glawfps056" />				</desk>
+				 <desk y="0" x="3">		<user name="framirez" />			<computer name="glawfps039"/>				</desk>			 
+				 <desk y="1" x="0">		<user name="smorrison" />			<computer name="glawfps037" />				</desk>   
+				 <desk y="1" x="1">		<user name="cboyd" />				<computer name="glawfps040" />				</desk>
+				 <desk y="1" x="2">		<user name="lpollock" />			<computer name="glawfps047" />				</desk>	
+				 <desk y="1" x="3">											<computer name="glawfps031" />				</desk>
+				 <desk y="0" x="4">		<user name="nbaxter" />				<computer name="glawfps057"/>				</desk>
+				 <desk y="1" x="4">																						</desk>
+				</pod>
+				
+				<pod title="FPS Trades" x="0.5" y="11" width="5" height="2" >			
+				 <desk y="0" x="0">		<user name="datha" />				<computer name="glawfps038" />				</desk>
+				 <desk y="0" x="1">		<user name="jmackay1" />			<computer name="glawfps021" />				</desk>
+				 <desk y="0" x="2">		<user name="gconnelly" />			<computer name="glawfps052" />				</desk>
+				 <desk y="0" x="3">																						</desk>			 
+				 <desk y="1" x="0">		<user name="koneill" />				<computer name="glawfps024" />				</desk>   
+				 <desk y="1" x="1">		<user name="rallen" />				<computer name="glawfps045" />				</desk>
+				 <desk y="1" x="2">																						</desk>	
+				 <desk y="1" x="3">																						</desk>
+				 <desk y="0" x="4">																						</desk>
+				 <desk y="1" x="4">																						</desk>
+				</pod>
+				
+				<pod title="FPS 1" x="6.5" y="1.5" width="4" height="2" >			
+				 <desk y="0" x="0">								</desk>
+				 <desk y="0" x="1">								</desk>
+				 <desk y="0" x="2">								</desk>
+				 <desk y="0" x="3">								</desk>			 
+				 <desk y="1" x="0">								</desk>   
+				 <desk y="1" x="1">								</desk>
+				 <desk y="1" x="2">								</desk>	
+				 <desk y="1" x="3">								</desk>
+				</pod>
+				
+				<pod title="FPS 2" x="6.5" y="5" width="4" height="2" >			
+				 <desk y="0" x="0">							</desk>
+				 <desk y="0" x="1">							</desk>
+				 <desk y="0" x="2">							</desk>
+				 <desk y="0" x="3">							</desk>			 
+				 <desk y="1" x="0">							</desk>   
+				 <desk y="1" x="1">							</desk>
+				 <desk y="1" x="2">							</desk>	
+				 <desk y="1" x="3">							</desk>
+				</pod>
+
+						<wall x="5.75" y="8" 		height="5" width="0.15" />
+						<wall x="6.5" y="8" 		height="0.15" width="4" />
+								
+				<printer x="4.5" y="9.5" name="GLAPFPS" />
+			
+			</company>	
+			</office>
+			
+
+	</site>
+
+	<office name="Glasgow FPSG" domain="fpsgglasgow" sitecode="glc" height="10" width="10" x="0" y="12">
+		
+		<company name="FPSG">
+			
+			<wall x="0" y="1.5" width="1" height="0.25" />
+			<wall x="0" y="3" width="1" height="0.25" />
+			<wall x="2.25" y="3" width="1.75" height="0.25" />
+			
+			<wall x="1.5" y="0" width="0.25" height="3.25" />
+			<wall x="0.75" y="4" width="2.75" height="0.25" />
+			<wall x="4" y="0" width="0.25" height="4" />
+			<wall x="3" y="5" width="0.25" height="5" />
+			
+			<port x="1.8" y="1" 	caption="7N" />
+			<desk x="3" y="1"> <computer name="glcwboardroom" /></desk>
+			
+			<pod title="Admin" x="8" y="0.5" width="2" height="2">
+				<desk x="0" y="0"> 					<user name="(jagnew)" />								</desk>
+				<desk x="1" y="0"> 					<user name="aspratt" />			<computer name="glcw46" />		</desk>
+				<desk x="0" y="1"> 					<user name="(Fatima)" />		<computer name="glcw33" />		</desk>
+				<desk x="1" y="1"> 					<user name="cmurray" />			<computer name="glcw38"/>		</desk>
+			</pod>
+			<pod title="Sales and Marketing" x="8" y="3.5" width="2" height="2">
+				<desk x="0" y="0"> 							<computer name="glcw25"/>		</desk>
+				<desk x="1" y="0"> 					<user name="kpeacock" />		<computer name="glcw44"/>		</desk>
+				<desk x="0" y="1"> 							</desk>
+				<desk x="1" y="1"> 					<user name="jwhite" />			<computer name="glcw39"/>		</desk>
+			</pod>		
+			<pod title="Professional Services" x="8" y="7" width="2" height="2">
+				<desk x="0" y="0">					 								<computer name="glcw46"/>		</desk>
+				<desk x="1" y="0"> 					<user name="dsimpson" />		<computer name="glcw31"/>		</desk>
+				<desk x="0" y="1"> 					<user name="emccrink" />		<computer name="glcw45"/>		</desk>
+				<desk x="1" y="1">					<user name="rclark" />			<computer name="glcw36"/>		</desk>
+			</pod>	
+			<pod title="Business Operations" x="5" y="6" width="2" height="3">
+				<desk x="0" y="0"> 	</desk>
+				<desk x="1" y="0"> 	</desk>
+				<desk x="0" y="1"> 					<user name="jmcvey" />			<computer name="glcw30"/>		</desk>
+				<desk x="1" y="1">					<user name="hdownes" />			<computer name="glcw02"/>		</desk>
+				<desk x="0" y="2"> 					<user name="cflynn" />			<computer name="glcw29"/>		</desk>
+				<desk x="1" y="2"> 					<user name="jhammond" />		<computer name="glawconnect034"/>		</desk>
+			</pod>	
+			<printer x="4" y="0.75" name="glcp1" />			
+			<pod title="IT Recruitment" x="5" y="0.5" width="2" height="3">
+				<desk x="0" y="0"> 					<user name="kmanaf" />			<computer name="glcw32"/>		</desk>
+				<desk x="1" y="0"> 					<user name="iblackwood" />		<computer name="glcw26"/>		</desk>
+				<desk x="0" y="1"> 					<user name="smcallister" /> 	<computer name="glcw03" />		</desk>
+				<desk x="1" y="1"> 					<user name="rnorin" />		 	<computer name="glcw47"/>		</desk>
+				<desk x="0" y="2"> 					<user name="lciesielski" />						</desk>
+				<desk x="1" y="2"> 					<user name="spender" />		<computer name="glcw27" />	</desk>
+			</pod>
+			
+		</company>		
+	</office>
+	
+	<office name="Glasgow NetTalent" domain="fpsgglasgow" sitecode="ntg" height="4" width="3">
+		<company name="Net Talent">
+			<printer x="1" y="0" name="ntgp01"/>
+			<pod x="2" y="2" height="2" width="1">
+				<desk y="0" x="0">		<user name="sbutterfield" />	    <computer name="ntgw05"/>		</desk>
+				<desk y="1" x="0"> 	 	<!--<user name="codonnell" />-->		<computer name="ntgw06" />		</desk>							
+			</pod>
+			<pod x="0" y="2" height="2" width="1">
+				<desk y="0" x="0">	  								<computer name="ntgt??" ipaddress="192.168.6.10" />  			</desk>    <!-- <computer name="ntgw03"/>-->
+				<desk y="1" x="0"> 		<user name="nwinsey" />		<computer name="ntgw02"/>		</desk>							
+			</pod>
+		</company>
+	</office>
+		
+
+	<office name="Loanhead" domain="fpsgglasgow" sitecode="lnh"  height="19" width="9">
+		
+		<!-- <wall x="6.5" y="0" height="9.5" width="0.3" /> -->
+		<!-- <port x="0" y="0.65" 	caption="01/A/02 D1-8"/> -->
+		
+		<wall x="0" y="0" width="8" 	height="0.3" />
+		<wall x="0" y="0" width="0.3" 	height="8" />
+		<wall x="0" y="8" width="8" 	height="0.3" />
+		<wall x="8" y="0" width="0.3" 	height="8" />
+		
+		<wall x="0" y="2" width="2" 	height="0.2" />
+		<wall x="2" y="2" width="0.2" 	height="6" />
+		
+		<wall x="2" y="5" width="6" 	height="0.2" />
+		<wall x="5" y="5" width="0.2" 	height="3" />
+		
+		<wall x="0" y="10" width="8.3"	height="0.3" />
+		<wall x="0" y="10" width="0.3"	height="8" />
+		
+		<wall x="8" y="10" width="0.3"	height="8" />
+		<wall x="0" y="18" width="8.3"		height="0.3" />
+		
+		<wall x="2.55" y="15" width="2.5"	height="0.3" />
+		<wall x="6" y="15" width="2"	height="0.3" />
+		
+		<wall x="2.25" y="10" width="0.3" height="1.25" />
+		<wall x="2.25" y="12.3" width="0.3" height="6" />
+		<wall x="0" y="13" width="2.25" height="0.3" />
+		
+		<port x="3" y="0.3" 	caption="1/1"/> 
+		<port x="5" y="0.3" 	caption="1/2"/> 
+		<port x="7" y="0.3" 	caption="1/3"/> 
+		
+<!-- Updates made by David to cover first floor of Loanhead ports/servers -->			
+		<port x="3" y="10.35"		caption=" "/>
+		<port x="5.5" y="10.35"		caption=" "/>
+		
+		<port x="3" y="17.9"		caption=" "/>
+		<port x="4.5" y="17.9"		caption=" "/>
+		<port x="6.5" y="17.9"		caption=" "/>
+		
+		<port x="7.9" y="11"		caption=" "/>
+		<port x="7.9" y="12.5"		caption="(7)"/>
+		<port x="7.9" y="14"		caption=" "/>
+		<port x="7.9" y="15.5"		caption="(7)"/>
+		<port x="7.9" y="17"		caption=" "/>
+
+		<port x="8" y="2" 		caption="1/4"/> 
+		<port x="8" y="4" 		caption="1/5"/> 
+		<port x="8" y="7" 		caption="1/6"/> 
+		<port x="6.6" y="8" 	caption="1/7"/> 
+		<port x="4" y="8" 		caption="1/8"/> 
+		<port x="2.2" y="7" 	caption="1/9"/> 
+		<port x="2.2" y="4" 	caption="1/10"/> 		
+		<port x="2.2" y="3.5" 	caption="4/1-7"/> 	
+
+		<company name="The Social Care Community Partnership">
+		
+			<printer name="LNHP01" x="4" y="0.5"/>
+			
+			<pod title="Professionals" x="2.4" y="2" width="2" height="3">
+				<desk x="0" y="0">		<user name="awilliamson"/>				<computer name="lnhwcare01"/>				</desk>
+				<desk x="0" y="1">		<user name="smore"/>				<computer name="lnhl005"/>					</desk>
+			</pod>
+			
+			<pod title="Services" x="4.75" y="2" width="3" height="3">
+				<desk x="0" y="0">		<user name="aoloyede" />	    <computer name="lnhl006"/>   					</desk>
+				<desk x="1" y="0">		<user name="ascobie" />		<computer name="lnhwcare02"/>					</desk>	
+				<desk x="2" y="0">		<user name="sbeattie" />		<computer name="lnhwcare04" />					</desk>
+				
+				<desk x="0" y="1">		<computer name="lnhwcare05" />													</desk>				
+				<desk x="1" y="1">																		</desk>	
+				<desk x="2" y="1">		<user name="awatson" />		    <computer name="lnhl007"/>						</desk>	
+			</pod>
+
+			<pod title="Room1" x="3" y="6" width="1" height="1">
+				<desk x="0" y="0">						<computer name="LNHW002"/>  				</desk>	
+			</pod>
+			
+			<pod title="Room2" x="6" y="6" width="1" height="1">
+				<desk x="0" y="0">		<user name="moneill" />		<computer name="lnhw003"/>	</desk>	
+			</pod>
+
+			<pod title="mobile staff" x="0.5" y="3" width="1" height="1">
+				<desk x="0" y="0">		<user name="ccruickshank" />				<computer name="lnhl008"/>  				</desk>	
+			</pod>
+			
+		</company>
+
+		<company name="FPS">
+		
+			<printer name="LNHPFPS" x="5" y="10.35"/>
+			
+			<pod title="FPS Manager" x="6.25" y="12.75" width="1" height="2">
+				<desk x="0" y="0">										<computer name="lnhwfps006" />											</desk>
+				<desk x="0" y="1">		<user name="scottwilson" />		<computer name="lnhwfps005" />				</desk>
+			</pod>
+		
+			<pod title="FPS Staff" x="5.75" y="15.7" width="2" height="2">
+				<desk x="0" y="0">																												</desk>
+				<desk x="0" y="1">		<user name="pshields" />		<computer name="lnhwfps004" />		  																								</desk>
+				<desk x="1" y="0">		<user name="cpinnons" />		<computer name="lnhwfps003" />			</desk>
+				<desk x="1" y="1">		<user name="lcoats" />		<computer name="lnhwfps008" />											</desk>
+			</pod>
+			
+			<pod title="FPS Staff" x="3" y="15.7" width="2" height="2">
+				<desk x="0" y="0">		<user name="jszymczak"/>		<computer name="lnhwfps002"	/>											</desk>	
+				<desk x="0" y="1">						<computer name="lnhwfps007"	/>											</desk>
+				<desk x="1" y="0">		<user name="jcrocker"/>			<computer name="lnhwfps009"	/>											</desk>
+				<desk x="1" y="1">		<user name="rsmith" />			<computer name="lnhwfps001" />		  									</desk>
+			</pod>
+		
+		</company>
+		
+	</office>	
+
+	<office name="Perth" domain="fpsgglasgow" sitecode="per" height="4" width="5">
+		<company name="FPS">
+			<pod  title="Perth PCs" x="0.5" y="0.5" width="3" height="1">
+				<desk y="0" x="0">			<user name="danderson" />		<computer name="perw01"/> 	</desk>							
+				<desk y="0" x="1">			<user name="fwang" />			<computer name="perw02"/> 	</desk>							
+				<desk y="0" x="2">			<user name="awallace" />		<computer name="perw03"/> 	</desk>							
+			</pod>
+			<pod  title="laptops" x="0.5" y="2" width="3" height="1">
+				<desk y="0" x="0">				<computer name="perl01"/> 	</desk>							
+				<desk y="0" x="1">				<computer name="perl02"/> 	</desk>								
+			</pod> 			
+		</company>
+	</office>
+
+	<office name="TSCCP Glasgow" domain="fpsgglasgow" sitecode="cag" height="4" width="5">
+		<company name="The Social Care Community Partnership">
+			<pod  title="" x="0.5" y="0.5" width="3" height="1">
+				<desk y="0" x="0">			<user name="srafiq" />		<computer name="cagw01" /> 		</desk>	
+				<desk y="0" x="1">			<user name="awilson" />		<computer name="cagw02" /> 		</desk>					
+			</pod>
+			<pod  title="" x="0.5" y="2.5" width="3" height="1">
+				<desk y="0" x="0">			<user name="jshafi" />		<computer name="cagw04" />	 	</desk>
+				<desk y="0" x="1">		 	<user name="smiller" />		<computer name="cagw03" />		</desk>					
+			</pod>		
+		</company>
+	</office>
+	
+	<company name="Engage PSG">
+		<office name="London" domain="engagelondon" sitecode="lon" height="16" width="11">
+			<!-- Top of office	-->            
+			<wall x="1.75" y="0" width="0.25" height="8" />
+			<wall x="2" y="0" width="3.5" height="0.25" />
+			<wall x="5.5" y="0" width="0.25" height="2.5" />
+			<wall x="5.5" y="2.5" width="1.5" height="0.25" />
+			<wall x="7" y="2.5" width="0.25" height="7.5" />
+			
+			<wall x="7" y="11" width="0.25" height="4" />
+			<wall name="bottom" x="2" y="15" width="9.25" height="0.25" />
+			<wall name="by Bill" x="1.75" y="10.5" width=".25" height="4.75" />
+			<fireexit x="1.75" y="14" />
+			<stair x="0" y="14" />
+			
+			<wall name="far right" x="11" y="2.5" width="0.25" height="12.5" />
+						
+			<!-- meeting rooms -->			
+			<wall name="Bottom meeting room top wall" x="7.25" y="13" width="1.75" height=".25" />
+			<label x="7.75" y="14" caption="Meeting room" font-size="16" />
+			
+			<wall name="meeting room right" x="9" y="2.5" width="0.25" height="12.5" />
+			<label x="9.75" y="12" caption="Boardroom" font-size="16" />
+			
+			<wall name="meeting room top" x="9.25" y="9.75" width="1.75" height=".25" />
+			<label x="9.75" y="8" caption="Utility space" font-size="16" />
+			<wall name="utility space top" x="9.25" y="6.75" width="1.75" height=".25" />
+			<label x="9.75" y="5" caption="Meeting room" font-size="16" />
+			<wall name="top meeting room top" x="9.25" y="2.5" width="1.75" height=".25" />
+			<fireexit x="8" y="2.5" />
+			<fireextinguisher x="8.5" y="3" />
+			<lift x="6" y=".75" caption="Lifts" font-size="16" />
+			<stair x="8" y="0" />		
+
+			
+			<!-- Kitchen -->
+			<wall x="0" y="6" width="1.75" height=".25" />
+			<label x="1" y="7" caption="Kitchen area" font-size="16" />
+			<image x="0" y="6.5" height="100" width="100" url="http://itsupport/photos/icons/microwave.jpg" />
+			<wall x="0" y="7.75" width="1" height=".25" />
+			<wall x="0" y="10.5" width="1.75" height=".25" />
+			
+			<!-- boardroom PC -->
+			<desk x="9.5" y="13"><computer name="lonwboard"/></desk>
+			
+			<pod title="" x="3.5" y="0.5" width="2" height="2">
+				<desk y="0" x="0">      				</desk>
+				<desk y="0" x="1">						</desk>																
+				<desk y="1" x="0">						</desk>
+				<desk y="1" x="1">						</desk>
+			</pod>   	
+	
+			<pod title="IT" x="3" y="3" width="4" height="2">
+				<desk y="0" x="1">			<user name="paul.dixon" />					<computer name="lonw001"/>		</desk>
+				<desk y="0" x="2">			<user name="aylin.halil" />					<computer name="lonw052"/>		</desk>
+				<desk y="0" x="3">			<user name="daniel.williams" />				<computer name="lonw054"/>		</desk>
+				<desk y="1" x="1">			<user name="donte.gilchrist" />						</desk>
+				<desk y="1" x="2">			<user name="thomas.rope" />					<computer name="lonw041"/>		</desk>
+				<desk y="1" x="3">			<user name="din.jomadar" />					<computer name="lonw059"/>				</desk>
+			</pod>   	 	
+	
+			<pod title="Consulting" x="3" y="5.5" width="4" height="2">
+				<desk y="0" x="1">			<user name="masih.kabir" />					<computer name="lonw042"/>		</desk>
+				<desk y="0" x="2">			<user name="darryl.gray"  />				<computer name=""/>				</desk>
+				<desk y="0" x="3">			<user name="dan.poulton" />					<computer name="lonw029"/>		</desk>
+				<desk y="1" x="1">			<user name="john.tsintzos" />				<computer name="lonw047"/>		</desk>
+				<desk y="1" x="2">	       	<user name="darren.duporte"  />				<computer name=""/>				</desk>
+				<desk y="1" x="3">			<user name="kym.sia"  />					<computer name="lonw056"/>		</desk>
+			</pod> 
+	
+			<pod title="Sales and marketing" x="3" y="8" width="4" height="2"><!-- london27 -->
+				<desk y="0" x="1">			<user name="ciaran.bullock" />				<computer name="lonw055"/>		</desk>
+				<desk y="0" x="2">			<user name="franchesca.lopez" />			<computer name=""/>				</desk>
+				<desk y="0" x="3">			<user name="dane.percival" />				<computer name="lonw045"/>		</desk>
+				<desk y="1" x="1">							</desk>
+				<desk y="1" x="2">							</desk>
+				<desk y="1" x="3">					     	</desk>
+			</pod>   
+	
+			<printer name="lonp01" y="8" x="0"/>
+			<desk y="9.5" x="1">	<computer name="lonw33" />	<user name="(phone reporting)"/><!-- phone reporting PC -->	  </desk>
+			
+			<photo y="9.5" x="0" width="0.5" url="http://itsupport/photos/london/rack1.JPG" caption="Cabinet Layout"  />
+			
+		
+			<pod title="" y="11" x="2" height="2" width="2" >
+				<desk y="0" x="0">			<user name="bill.graham" />				<computer name="lonw057"/> 			</desk>				
+				<desk y="0" x="1">			<user name="robert.perkins" />			<computer name="lonw040"/>			</desk>
+				<desk y="1" x="0">			<user name="mark.gray" />				<computer name="lonw043"/>    		</desk>
+				<desk y="1" x="1">			    																		</desk>
+			</pod>		
+			
+			<pod y="11" x="4.5"  height="4" width="2" title="Banking">
+				<desk y="1" x="0">		 	<user name="andrew.smith" /> 			<computer name="lonw035" />			</desk>
+				<desk y="1" x="1">			<user name="harry.radcliffe" />			<computer name="lonw037"/>			</desk>
+				<desk y="2" x="0">			<user name="paula.johnson" />			<computer name=""/>					</desk>
+				<desk y="2" x="1">			<user name="jon.price" />				<computer name="lonw053"/>			</desk>
+				<desk y="3" x="0">			<user name="faye.barker" /> 			<computer name="lonw050" />   		</desk>
+				<desk y="3" x="1">			<user name="kevin.cruickshank" />		<computer name="lonw038"/>			</desk>		 		
+				</pod>
+
+			<pod y="8" x="8"  height="2" width="1" title="Reception">>
+				<desk y="1" x="0">			<user name="(paula.johnston)" />				<computer name="lonw030"/>		</desk>
+			</pod>
+		</office>
+		
+		<office name="Norwich" domain="engagelondon" sitecode="nor" height="4" width="4">
+		
+			<!-- Mark Geraghty at top corner - Whelan	-->
+			<pod title="Engage Norwich" x="0.5" y="0.5" width="2" height="2">
+				<desk y="0" x="0">	<user name="simon.watson" />	 <computer name="lonl001a" /></desk>
+				<desk y="0" x="1">	<user name="russell.edwards" /> <computer name="lonl001" />	</desk>
+				<desk y="1" x="0">															</desk>
+				<desk y="1" x="1">			  												</desk>
+			</pod>   	
+			  	
+			<printer name="manprinter" y="8" x="3.5"/> 
+			
+			<!-- reception -->	
+	
+		</office>
+	</company>
+
+	<company name="TEC Group">
+		<office name="Wallington" domain="domain" sitecode="wal" height="9" width="8">
+		
+			<!-- Outside Walls -->
+			<wall 			x="0" y="0" width=".25" height="4.5" />
+			<wall 			x="11" y="0" width=".25" height="8" />
+			<wall 			x="0" y="0" width="11" height="0.25" />
+			<wall 			x="0" y="8" width="11.25" height="0.25" />
+			
+			
+			<!-- IT Dividing Wall -->
+			<wall 			x="6.5" y="0" width=".25" height="3" />
+						
+			<!-- Toilet Walls -->
+			<wall 			x="0" y="5.5" width="3.95" height="0.25" />
+			<wall 			x="3.7" y="5.5" width=".25" height="2.75" />
+			
+			<!-- Admin Walls -->
+			<wall 			x="3.7" y="5.5" width="2.5" height="0.25" />
+			<wall 			x="6.2" y="5.5" width=".25" height="2.75" />
+			
+			<!-- Meeting Room Walls-->
+			
+			<wall 			x="6.2" y="5.5" width="2.5" height="0.25" />
+			<wall 			x="8" y="5.5" width=".25" height="2.75" />
+			
+
+			<!-- ports clockwise from top left -->
+			<port x="5" 	y="0.25" 	caption="8N 2P"/>
+			<port x="6.5" 	y="0.25" 	caption="4P"/>
+			<port x="7.5" 	y="0.25" 	caption="4N 2P"/>
+			<port x="9" 	y="0.25" 	caption="2P"/>
+			<port x="10.5" 	y="0.25" 	caption="6P"/>
+			
+			<port x="10.9" 	y="2.5" 	caption="2P"/>
+			<port x="10.9" 	y="4.5" 	caption="16N 2P"/>
+			<port x="10.9" 	y="7.5" 	caption="4N 6P"/>
+			
+			<port x="8" 	y="8" 		caption="8N 2P"/>
+			<port x="4.5" 	y="8" 		caption="4P"/>
+			<port x="3" 	y="8" 		caption="4N 6P"/>
+			<port x="2" 	y="8" 		caption="4N 4P"/>
+			<port x="1" 	y="8" 		caption="4N 2P"/>
+			
+			<port x="5.6" 	y="3.5"		caption="4N 2P"/>
+			<port x="5.6" 	y="4"		caption="2P"/>
+			
+			<photo x="6.8" y="0.65" url="http://itsupport/photos/wallington/WallingtonServers.JPG" 				caption="Servers" />
+			<photo x="6.8" y="0.8" url="http://itsupport/photos/wallington/WallingtonCupboard.JPG" 				caption="Cupboard" />
+			<photo x="6.8" y="0.95" url="http://itsupport/photos/wallington/WallingtonSwitchCables.JPG" 		caption="Switch Cables" />
+						
+			
+			<pod title="Printers" x="7.2" y="3" width ="1" height ="2" >
+			
+				<printer x="0" y="1" 	name="Xerox Workcentre 7120" />
+				
+			</pod>
+			
+			<pod title="Admin" x="4" y="6" width="4" height="4"  >
+				<desk  x="0"	y="0">											<computer name="walw31"/>				</desk>
+				<desk  x="1"	y="0">		<user name="alisonpike" />			<computer name="walw11"/> 				</desk>
+				<desk  x="0"	y="1">											<computer name="walw21"/>				</desk>
+				<desk  x="1"	y="1">		<user name="ibowers" />				<computer name="walw10"/>				</desk>
+			</pod>   	
+			
+			<pod title= "Meeting Room" x="6.5" y="5.5" width ="1" height="1" >
+			</pod>
+	
+			<pod title="Spare Desks" x="0.5" y="0.5" width="2" height="3" >
+				<desk x="0"	y="0">			<user name="ssell" />				<computer name="walw22"/>				</desk>
+				<desk x="1"	y="0">			<user name="achelghoum"/>			<computer name="walw33"/>				</desk>   
+				<desk x="0"	y="1">																						</desk>
+				<desk x="1"	y="1">			 																			</desk>
+				<desk x="0"	y="2">			<user name="will.atkinson" /> 		<computer name="TGL06"/>				</desk>
+				<desk x="1"	y="2">			  									<computer name="walw21"/>				</desk>
+			</pod> 
+			
+			<pod title="Scott's Team" x="4" y="0.5" width="2" height="3" >
+				<desk x="0"	y="0">			<user name="dbowers" />				<computer name="manw02"/>				</desk>
+				<desk x="1"	y="0">			<user name="rbird"/>  				<computer name="walw05"/>				</desk>   
+				<desk x="0"	y="1">			<user name="efry" />	  			<computer name="walw03"/>				</desk>
+				<desk x="1"	y="1">			<user name="mmelody" />	  			<computer name="tglw01"/>				</desk>
+				<desk x="0"	y="2">			<user name="darren.hall"/> 			<computer name="walw02"/>											</desk>
+				<desk x="1"	y="2">			<user name="ssearch"/>				<computer name="walw29"/>				</desk>
+			</pod> 
+				
+			<pod title="presentation PC" x="0" y="3.5" height="1" width="1">
+				<desk x="0" y="0"><computer name="walwtv" /> </desk>
+			</pod>
+				
+		</office>
+	
+		<office name="Manchester" domain="domain" sitecode="man" height="8" width="6">
+
+			<wall y="0" x="0" height="5" width="0.25" />
+			
+			<pod x="0.5" y="0.5" height="2" width="1">
+				<desk y="0" x="0"> 																			</desk>
+				<desk y="1" x="0">																			</desk>
+			</pod>
+			
+			<pod x="0" y="5.5" height="2" width="1">
+				<desk y="0" x="0"> 																			</desk>
+				<desk y="1" x="0">																			</desk>
+			</pod>
+
+			<pod x="5" y="0.5" height="2" width="1">
+				<desk y="0" x="0"> 								</desk>
+				<desk y="1" x="0">								</desk>				
+			</pod>
+			
+			<pod x="4" y="3" height="2" width="2">
+				<desk y="0" x="1"> 							</desk>
+				<desk y="0.5" x="0">																		</desk>
+				<desk y="1" x="1">	<user name="sboswell" />	<computer name="manl08"/>					</desk>		
+			</pod>
+			
+			
+			<pod x="4" y="5.5" height="2" width="2">
+				<desk y="0" x="1"> 				<computer name="manw02"/>					</desk>
+				<desk y="0.5" x="0">																		</desk>
+				<desk y="1" x="1">				<computer name="walw09"/>						</desk>
+			</pod>
+	
+	
+		</office>
+
+		<office name="Houston" 	domain="domain" sitecode="hou" height="5" width="6">
+		
+			<pod x="1" y ="1" height="3" width="2" >
+				<desk y="0" x="0">	<user name="ajackson" />	 	</desk>
+				<desk y="0" x="1">	<user name="mtoner" />	 		</desk>
+				<desk y="1" x="0">	<user name="mavel.sifontes" /> 																</desk>
+				<desk y="1" x="1">	<user name="mike.green" /> 		  														</desk>
+				<desk y="2" x="0">	<user name="sangell" /> 	 																</desk>
+				<desk y="2" x="1">	 	<computer name="tghl01"/> 			</desk>			
+			</pod>
+		
+		</office>
+
+		<!-- not sure why this was renamed to London / lon ... -->
+		<office name="Tec London" domain="domain" sitecode="tgl" height="10" width="10">
+		
+			<wall x="6.75" y="0" height="4" width="0.25" />
+			<wall x="3" y="2.5" height="0.25" width="4" />
+			<wall x="3" y="4" height="4" width="0.25" />
+			<wall x="0" y="9.5" height="0.25" width="3" />
+			
+			<pod title="4 - by comms" x="4" y="0.25" height="2" width="2">
+				<desk x="0" y="0" name="4B"> </desk>
+				<desk x="1" y="0" name="4D">  <computer name =""/>		 </desk>
+				<desk x="0" y="1" name="4A">  <computer name="tgll09"/></desk>
+				<desk x="1" y="1" name="4C"> </desk>
+			</pod>
+
+			<pod title="TV" x="0" y ="0.25" height="1" width="1">
+					<desk x="0" y="0"> <computer name="tglwtv"/>	</desk>
+			</pod>
+			
+			<pod  title="3" x="2" y="0.25" height="2" width="2">
+				<desk x="0" y="0" name="3B" netport="1" >  </desk>
+				<desk x="1" y="0" name="3D" netport="2" >	<computer name ="tgll01"/>	 </desk>
+				<desk x="0" y="1" name="3A">  	</desk>
+				<desk x="1" y="1" name="3C">   	 </desk>
+			</pod>
+
+			<pod   title="2 - by big window" x="0" y="3.5" height="2" width="2">
+				<desk x="0" y="0" name="2D"> <user name="liredale" /><computer name="tgl07"/> </desk>
+				<desk x="1" y="0" name="2C">  		 <computer name="tglw01"/> </desk>
+				<desk x="0" y="1" name="2B"> <user name="mmelody" /> <computer name="tglw01"/> </desk>
+				<desk x="1" y="1" name="2A"> <user name="ssell"/> 	 <computer name="wall01"/> </desk>
+			</pod>
+
+			<pod  title="1 - by door" x="0" y="6.75" height="2" width="2">
+				<desk x="0" y="0" name="1D"> <user name="dbowers" /> <computer name="tgll02"/>	 	</desk>
+				<desk x="1" y="0" name="1C">  														</desk>
+				<desk x="0" y="1" name="1B"> <user name="will.atkinson" /> <computer name="tgll06"/>	</desk>
+				<desk x="1" y="1" name="1A"> <user name="" 	/> <computer name =""/>	 </desk>
+			</pod>	
+						
+		</office>
+
+		<office name="Dubai" domain="domain" sitecode="dub"  height="7.75" width="10">
+		
+			<wall x="9.75" y="0" height="2.5" width="0.25" />
+			<wall x="8" y="2.5" height="0.25" width="2" />
+			<wall x="8" y="2.5" height="7" width="0.25" />
+			<wall x="0" y="9.5" height="0.25" width="3" />		
+			
+			<pod x="8.75" y="1.5" height="1" width="1">
+				<desk x="0" y="0"><computer name="dubsdc01"/> </desk>
+			</pod>
+			
+			<pod x="5.75" y="3" height="5" width="2">
+				<desk x="0.5" y="0"><user name="ggibson" />			<computer name="dubl03"/></desk>
+				<desk x="1" y="1"></desk>
+				<desk x="0" y="1"></desk>
+				<desk x="1" y="2"><user name="gdzieza" />				<computer name="dubl08"/></desk>
+				<desk x="0" y="2"><user name="pmehta" />				<computer name="dubl06"/></desk>
+				<desk x="0" y="3"><user name="lwillmott" />			<computer name="dubl09"/></desk>
+				<desk x="1" y="3"><user name="aforsyth" />			<computer name="dubl05"/></desk>
+			</pod>
+			
+			<pod x="3.5" y="3" height="5" width="2">
+				<desk x="0.5" y="0">	</desk>
+				<desk x="1" y="1"><user name="dflemming" />			<computer name="dubl01"/></desk>
+				<desk x="0" y="1"><user name="cholbrook" />			<computer name="dubl10"/></desk>
+				<desk x="1" y="2"></desk>
+				<desk x="0" y="2"></desk>
+				<desk x="0" y="3"><user name="cflemming" />			<computer name="dubl04"/></desk>
+				<desk x="1" y="3"><user name="Milan.Batth" />			<computer name="dubl07"/></desk>
+			</pod>
+			
+			<pod x="0.8" y="1" height="2" width="3">
+				<desk x="0" y="0"></desk>
+				<desk x="0" y="1"></desk>
+				<desk x="1" y="0"></desk>
+				<desk x="1" y="1"></desk>
+				<desk x="2" y="0"></desk>
+				<desk x="2" y="1"></desk>
+			</pod>
+			
+			<pod x="0.25" y="6" height="1" width="1">
+				<desk x="0" y="0"><user name="(boardroom PC)"/><computer name="dubw01"/> </desk>
+			</pod>			
+						
+		</office>
+		
+
+	</company>		
+	<company name="Net Talent">
+		<office name="Edinburgh NetTalent" domain="fpsgglasgow" sitecode="edi" height="12" width="9">
+
+			
+				<pod title="Pod 1" x=".50" y=".25" width="2" height="4">
+					<desk y="0" x="0">			<user name="dgibb" />			<computer name="ediwnettalent17"/>		</desk>
+					<desk y="0" x="1">											<computer name="ediwnettalent09"/>	</desk>
+					<desk y="1" x="0">			<user name="elogan" />			<computer name="ediwnettalent40"/>		</desk>
+					<desk y="1" x="1">											<computer name="ediwnettalent26"/>		</desk>
+					<desk y="2" x="0">											<computer name="ediwnettalent23"/>		</desk>
+					<desk y="2" x="1">													</desk>
+					<desk y="3" x="0">													</desk>
+					<desk y="3" x="1">													</desk>
+				</pod>
+				
+				<pod title="Pod 2" x="3.5" y=".25" width="2" height="4">
+					<desk y="0" x="0">			<user name="awall" />	    	<computer name="ediwnettalent28"/>			</desk>
+					<desk y="0" x="1">			<user name="gdonaldson" />		<computer name="ediwnettalent27"/>	</desk>
+					<desk y="1" x="0">			<user name="aszymanczak" />		<computer name="ediwnettalent08"/>			</desk>
+					<desk y="1" x="1">			<user name="ddalrymple" />		<computer name="ediwnettalent14"/>			</desk>
+					<desk y="2" x="0">			<user name="arodgie" />			<computer name="ediwnettalent18"/>		</desk>
+					<desk y="2" x="1">			<user name="bmaguire" />		<computer name="ntgw03"/>				</desk>
+					<desk y="3" x="0">					</desk>
+					<desk y="3" x="1">					</desk>
+				</pod>
+				
+				<pod title="Pod 3" x="6.5" y=".25" width="2" height="4">
+					<desk y="0" x="0">			<user name="hleathem" />		<computer name="ediwnettalent25"/>		</desk>
+					<desk y="0" x="1">			<user name="ywhelan" />			<computer name="ediwnettalent21"/>		</desk>
+					<desk y="1" x="0">			<user name="amccue" />			<computer name="ediwnettalent24"/>		</desk>
+					<desk y="1" x="1">									</desk>
+					<desk y="2" x="0">			<user name="jtelford" />		<computer name="ediwnettalent04"/>	</desk>
+					<desk y="2" x="1">									</desk>
+					<desk y="3" x="0">				</desk>
+					<desk y="3" x="1">			<user name="hclelland" />		<computer name="ediwnettalent30"/>		</desk>
+				</pod>
+	
+	<!-- Left Wall -->
+				<wall 	x="0" y="6" width="3.5" height="0.5" />		
+	<!-- Middle Wall -->			
+				<wall 	x="4" y="6" width="3" height="0.5" />
+	<!-- Right Wall -->			
+				<wall 	x="7.5" y="6" width="2" height="0.5" />
+	
+	<!-- Bottom Wall -->
+				<wall 	x="0" y="8" width="5.5" height="0.5" />	
+	<!-- Vertical Wall -->
+				<wall 	x="5.5" y="8" width="0.5" height="4" />
+
+	
+		</office>
+	</company>
+		<company name="FPSG">
+		<office name="Edinburgh FPSG" domain="fpsgglasgow" sitecode="edc" height="12" width="9">
+
+			
+				<pod title="Pod 1" x=".50" y=".25" width="3" height="2">
+					<desk y="0" x="0">			<user name="jagnew" />				<computer name="edilconnect10"/>		</desk>
+					<desk y="0" x="1">			<user name="(aspratt)" />					</desk>
+					<desk y="0" x="2">			<computer name="ediwconnect12"/>		</desk>
+					<desk y="1" x="0">										</desk>
+					<desk y="1" x="1">			<user name="jdownton" />			<computer name="ediwconnect02"/>		</desk>
+					<desk y="1" x="2">										</desk>
+				</pod>				
+				
+				<pod title="Pod 2" x=".50" y="3.25" width="3" height="2">
+					<desk y="0" x="0">			<!--<user name="ajacob" />-->				<computer name="ediwconnect16"/>		</desk>
+					<desk y="0" x="1">			<user name="scaldwell" />			<computer name="ediwconnect15"/>		</desk>
+					<desk y="0" x="2">			<user name="ckingston" />			<computer name="ediwconnect014"/>		</desk>   <!-- computer seems to have an extra zero in name -->
+					<desk y="1" x="0">			<user name="ooak" />				<computer name="ediwconnect19"/>		</desk>
+					<desk y="1" x="1">			<user name="nking" />				<computer name="ediwconnect18"/>		</desk>
+					<desk y="1" x="2">			</desk>
+				</pod>				
+				
+				<pod title="Pod 3" x=".50" y="6.25" width="3" height="2">
+					<desk y="0" x="1">			<user name="jcross" />				<computer name="ediwconnect22"/>		</desk>
+					<desk y="0" x="2">								</desk>
+					<desk y="1" x="1">			<user name="klloyd" />				<computer name="ediwconnect23"/>		</desk>
+					<desk y="1" x="2">			<user name="sbaird" />				<computer name="ediwconnect21"/>		</desk>
+				</pod>				
+				
+				<pod title="Pod 4" x="5.50" y=".25" width="3" height="2">
+					<desk y="0" x="1">			<user name="cknowles" />				<computer name="ediwconnect25"/>		</desk>
+					<desk y="0" x="2">			<user name="mtaggart" />				<computer name="ediwconnect24"/>		</desk>
+					<desk y="1" x="1">			<user name="mfatnani" />				<computer name="ediwconnect26"/>		</desk>
+					<desk y="1" x="2">			<user name="jholt" />					<computer name="ediwconnect20"/>		</desk>
+				</pod>
+				
+				<wall x="6" y="4" width="3" height="0.25" />
+				<wall x="6" y="4" width="0.25" height="3.5" />
+				
+				<desk y="4.25" x="7">			<user name="(edcwtv\boardroom)" />				<computer name="edcwtv"/>		</desk>
+				<desk y="8.25" x="7">			<user name="mdichiu" />				<computer name="ediwreception01"/>		</desk>
+				
+					<!-- Right Wall -->			
+				<wall 	x="0" y="9" width="5" height="0.5" />
+	
+		</office>
+	</company>
+</plans>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+	<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
+	
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink" 
+		xmlns:svg="http://www.w3.org/2000/svg" x="225" y="0"><rect stroke="blue" stroke-width="3" fill-opacity="0.1" stroke-opacity="0.9" fill="blue" width="45" height="330"/></svg>
+		
+		
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" x="300" y="35" width="450" height="220"><text y="18" x="110">Net Talent 1</text></svg><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" x="300" y="55" width="450" height="220">
+			<svg x="0" y="0"><rect height="110" width="150" stroke="red" stroke-width="3" fill-opacity="0.1" stroke-opacity="0.9" fill="blue"/><text><a xlink:href="http://itsupport"><tspan x="3" y="16">ywhelan</tspan></a><a target="_blank" xlink:href="http://itsupport/queries?orderby0=count;ascdesc0=desc;orderby1=Date_last_logon;ascdesc1=desc;q=netscan_logons;loggedonuser=ywhelan"><tspan dx="3" dy="0" font-size="10">(L)</tspan></a><tspan x="3" dy="12" font-size="10">Yvonne Whelan</tspan><tspan x="3" dy="12" font-size="10">0131 270 6616 (x316)</tspan><a target="_blank" xlink:href="http://itsupport/queries?q=netscan_db;computername=nettalent06"><tspan x="3" y="55">nettalent06</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=radmin;host=nettalent06"><tspan dx="3" dy="0" font-size="10">(RA</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=rdp;host=nettalent06"><tspan dx="3" dy="0" font-size="10">RDP)</tspan></a><tspan x="3" dy="15" font-size="10">192.168.5.146</tspan><tspan dx="3" dy="0" font-size="10">
+	        	(1.8G)
+	        </tspan><tspan x="3" dy="15" font-size="10">Hewlett-Packard</tspan><tspan x="3" dy="15" font-size="10">HP Pro 3015 Microtower PC</tspan></text></svg>
+			<svg x="150" y="0"><rect height="110" width="150" stroke="red" stroke-width="3" fill-opacity="0.1" stroke-opacity="0.9" fill="blue"/><text><a xlink:href="http://itsupport"><tspan x="3" y="16">(empty)</tspan></a><a target="_blank" xlink:href="http://itsupport/queries?q=netscan_db;computername=edinburgh27"><tspan x="3" y="55">edinburgh27</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=radmin;host=edinburgh27"><tspan dx="3" dy="0" font-size="10">(RA</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=rdp;host=edinburgh27"><tspan dx="3" dy="0" font-size="10">RDP)</tspan></a><tspan x="3" dy="15" font-size="10">192.168.5.127</tspan><tspan dx="3" dy="0" font-size="10">
+	        	(0.4G)
+	        </tspan><tspan x="3" dy="15" font-size="10">Hewlett-Packard</tspan><tspan x="3" dy="15" font-size="10">HP Compaq dx2250 Microtower</tspan></text></svg>
+			<svg x="300" y="0"><rect height="110" width="150" stroke="red" stroke-width="3" fill-opacity="0.1" stroke-opacity="0.9" fill="blue"/><text><a xlink:href="http://itsupport"><tspan x="3" y="16">(empty)</tspan></a><a target="_blank" xlink:href="http://itsupport/queries?q=netscan_db;computername=itdept33"><tspan x="3" y="55">itdept33</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=radmin;host=itdept33"><tspan dx="3" dy="0" font-size="10">(RA</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=rdp;host=itdept33"><tspan dx="3" dy="0" font-size="10">RDP)</tspan></a><tspan x="3" dy="15" font-size="10">192.168.5.138</tspan><tspan dx="3" dy="0" font-size="10">
+	        	(1.0G)
+	        </tspan><tspan x="3" dy="15" font-size="10">Hewlett-Packard</tspan><tspan x="3" dy="15" font-size="10">HP d230 MT(DQ450T)</tspan></text></svg>
+			<svg x="0" y="110"><rect height="110" width="150" stroke="red" stroke-width="3" fill-opacity="0.1" stroke-opacity="0.9" fill="blue"/><text><a xlink:href="http://itsupport"><tspan x="3" y="16">(laptop)</tspan></a><a target="_blank" xlink:href="http://itsupport/queries?orderby0=count;ascdesc0=desc;orderby1=Date_last_logon;ascdesc1=desc;q=netscan_logons;loggedonuser=(laptop)"><tspan dx="3" dy="0" font-size="10">(L)</tspan></a><tspan x="3" dy="12" font-size="10"/><tspan x="3" dy="12" font-size="10"/><a target="_blank" xlink:href="http://itsupport/queries?q=netscan_db;computername=edinthinkpad"><tspan x="3" y="55">edinthinkpad</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=radmin;host=edinthinkpad"><tspan dx="3" dy="0" font-size="10">(RA</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=rdp;host=edinthinkpad"><tspan dx="3" dy="0" font-size="10">RDP)</tspan></a><tspan x="3" dy="15" font-size="10">192.168.5.203</tspan><tspan dx="3" dy="0" font-size="10">
+	        	(3.0G)
+	        </tspan><tspan x="3" dy="15" font-size="10">LENOVO</tspan><tspan x="3" dy="15" font-size="10">28477LG</tspan></text></svg>
+			<svg x="150" y="110"><rect height="110" width="150" stroke="red" stroke-width="3" fill-opacity="0.1" stroke-opacity="0.9" fill="blue"/><text><a xlink:href="http://itsupport"><tspan x="3" y="16">ryan.watson</tspan></a><a target="_blank" xlink:href="http://itsupport/queries?orderby0=count;ascdesc0=desc;orderby1=Date_last_logon;ascdesc1=desc;q=netscan_logons;loggedonuser=ryan.watson"><tspan dx="3" dy="0" font-size="10">(L)</tspan></a><tspan x="3" dy="12" font-size="10">Ryan Watson</tspan><tspan x="3" dy="12" font-size="10">0131 270 6627 (x327)</tspan><a target="_blank" xlink:href="http://itsupport/queries?q=netscan_db;computername=edinburgh22"><tspan x="3" y="55">edinburgh22</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=radmin;host=edinburgh22"><tspan dx="3" dy="0" font-size="10">(RA</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=rdp;host=edinburgh22"><tspan dx="3" dy="0" font-size="10">RDP)</tspan></a><tspan x="3" dy="15" font-size="10">192.168.5.122</tspan><tspan dx="3" dy="0" font-size="10">
+	        	(1.3G)
+	        </tspan><tspan x="3" dy="15" font-size="10">Hewlett-Packard</tspan><tspan x="3" dy="15" font-size="10">HP dx2000 MT(DY925AV)</tspan></text></svg>
+			<svg x="300" y="110"><rect height="110" width="150" stroke="red" stroke-width="3" fill-opacity="0.1" stroke-opacity="0.9" fill="blue"/><text><a xlink:href="http://itsupport"><tspan x="3" y="16">deckersley</tspan></a><a target="_blank" xlink:href="http://itsupport/queries?orderby0=count;ascdesc0=desc;orderby1=Date_last_logon;ascdesc1=desc;q=netscan_logons;loggedonuser=deckersley"><tspan dx="3" dy="0" font-size="10">(L)</tspan></a><tspan x="3" dy="12" font-size="10">David Eckersley</tspan><tspan x="3" dy="12" font-size="10">0131 270 6615 (x315)</tspan><a target="_blank" xlink:href="http://itsupport/queries?q=netscan_db;computername=nettalent01"><tspan x="3" y="55">nettalent01</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=radmin;host=nettalent01"><tspan dx="3" dy="0" font-size="10">(RA</tspan></a><a xlink:href="http://itsupport/cgi-bin/radmin.pl?type=rdp;host=nettalent01"><tspan dx="3" dy="0" font-size="10">RDP)</tspan></a><tspan x="3" dy="15" font-size="10">192.168.5.148</tspan><tspan dx="3" dy="0" font-size="10">
+	        	(2.0G)
+	        </tspan><tspan x="3" dy="15" font-size="10">Hewlett-Packard</tspan><tspan x="3" dy="15" font-size="10">HP dx6050 uT</tspan></text></svg> 
+		</svg>   	
+	  
+	</svg>
+
+	
+
+
+	
+
+	
+
+

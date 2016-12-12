@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--details of mobile phones 
+Put an entry in desks.xml like this:
+
+<desk y="0" x="0">		
+	<user name="jscott" />		
+	<computer name="glawfps032"/>	
+	<phone imei="358762052743708" />
+</desk>
+
+-->
+<root>
+
+<phone imei="357998056946332" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964913950" simnumber="8944122575501930205"/>
+	</phone>
+	<phone imei="357998053839126" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964913953" simnumber="8944122575501930213"/>
+	</phone>
+	<phone imei="358762053590173" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964913989" simnumber="8944122575501930544"/>
+	</phone>
+	<phone imei="358762053114479" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964913999" simnumber="8944122575501930601"/>
+	</phone>
+	<phone imei="358762053103035" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914082" simnumber="8944122575501931278"/>
+	</phone>
+	<phone imei="358762053102987" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914051" simnumber="8944122575501931021"/>
+	</phone>
+	<phone imei="358762053302850" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964 914036" simnumber=""/>
+	</phone>
+	<phone imei="358762053014497" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914010" simnumber="8944122575501930692"/>
+	</phone>
+	<phone imei="358762053011949" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914202" simnumber="8944122575501932193"/>
+	</phone>
+	<phone imei="358762053010305" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914203" simnumber="8944122575501932201"/>
+	</phone>
+	<phone imei="358762052990895" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914046" simnumber="8944122575501930981"/>
+	</phone>
+	<phone imei="358762052949602" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914092" simnumber="8944122575501931351"/>
+	</phone>
+	<phone imei="358762052949214" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914047" simnumber="8944122575501930999"/>
+	</phone>
+	<phone imei="358762052910877" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914210" simnumber="8944122575501932268"/>
+	</phone>
+	<phone imei="358762052869776" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914024" simnumber="8944122575501930809"/>
+	</phone>
+	<phone imei="358762052866541" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914084" simnumber="8944122575501931294"/>
+	</phone>
+	<phone imei="358762052863126" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914004" simnumber="8944122575501930643"/>
+	</phone>
+	<phone imei="358762052816660" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914003" simnumber="8944122575501930635"/>
+	</phone>
+	<phone imei="358762052816645" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914079" simnumber="8944122575501931252"/>
+	</phone>
+	<phone imei="358762052743708" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914088" simnumber="8944122575501931328"/>
+	</phone>
+	<phone imei="358762052721704" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964913955" simnumber="8944122575501930239"/>
+	</phone>
+	<phone imei="358762053670108" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914042" simnumber="8944122575501930957"/>
+	</phone>
+	<phone imei="358762054624880" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914206" simnumber="8944122575501932227"/>
+	</phone>
+	<phone imei="358762054603025" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914190" simnumber="8944122575501932102"/>
+	</phone>
+	<phone imei="358762054515252" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964913954" simnumber="8944122575501930221"/>
+	</phone>
+	<phone imei="358762054515070" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914090" simnumber="8944122575501931344"/>
+	</phone>
+	<phone imei="358762054485209" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914049" simnumber="8944122575501931005"/>
+	</phone>
+	<phone imei="358762054353902" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914011" simnumber="8944122575501930700"/>
+	</phone>
+	<phone imei="358762054324234" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914196" simnumber="8944122575501932169"/>
+	</phone>
+	<phone imei="358762054185353" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914076" simnumber="8944122575501931237"/>
+	</phone>
+	<phone imei="358762054182244" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914009" simnumber="8944122575501930684"/>
+	</phone>
+	<phone imei="358762054098903" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964913995" simnumber="8944122575501930585"/>
+	</phone>
+	<phone imei="358762053974518" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914087" simnumber="8944122575501931310"/>
+	</phone>
+	<phone imei="358762053969633" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964913956" simnumber="8944122575501930247"/>
+	</phone>
+	<phone imei="358762053941483" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914208" simnumber="8944122575501932243"/>
+	</phone>
+	<phone imei="358762053911718" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914204" simnumber="8944122575501932219"/>
+	</phone>
+	<phone imei="358762053856780" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914005" simnumber="8944122575501930650"/>
+	</phone>
+	<phone imei="358762053763390" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914027" simnumber="8944122575501930833"/>
+	</phone>
+	<phone imei="358762053728302" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914033" simnumber="8944122575501930874"/>
+	</phone>
+	<phone imei="358762053722610" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914209" simnumber="8944122575501932250"/>
+	</phone>
+	<phone imei="358762052069450" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914089" simnumber="8944122575501931336"/>
+	</phone>
+	<phone imei="358762052057331" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914083" simnumber="8944122575501931286"/>
+	</phone>
+	<phone imei="358762051939844" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914041" simnumber="8944122575501930940"/>
+	</phone>
+	<phone imei="358762051938051" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914040" simnumber="8944122575501930932"/>
+	</phone>
+	<phone imei="358762051864141" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914037" simnumber="8944122575501930916"/>
+	</phone>
+	<phone imei="358762051817933" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914198" simnumber="8944122575501932185"/>
+	</phone>
+	<phone imei="358762051725375" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914007" simnumber="8944122575501930676"/>
+	</phone>
+	<phone imei="358762051680802" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914031" simnumber="8944122575501930858"/>
+	</phone>
+	<phone imei="358762051679226" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914052" simnumber="8944122575501931039"/>
+	</phone>
+	<phone imei="358762051668013" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914001" simnumber="8944122575501930619"/>
+	</phone>
+	<phone imei="358762051646852" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964913998" simnumber="8944122575501930593"/>
+	</phone>
+	<phone imei="358762051644428" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964913990" simnumber="8944122575501930551"/>
+	</phone>
+	<phone imei="358762051480500" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914002" simnumber="8944122575501930627"/>
+	</phone>
+	<phone imei="358762051424193" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914025" simnumber="8944122575501930817"/>
+	</phone>
+	<phone imei="358762051400367" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914034" simnumber="8944122575501930882"/>
+	</phone>
+	<phone imei="358762051398298" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914188" simnumber="8944122575501932086"/>
+	</phone>
+	<phone imei="358762051391079" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914026" simnumber="8944122575501930825"/>
+	</phone>
+	<phone imei="358762051335944" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914050" simnumber="8944122575501931013"/>
+	</phone>
+	<phone imei="358762053218890" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914086" simnumber="8944122575501931302"/>
+	</phone>
+	<phone imei="358762052562066" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914053" simnumber="8944122575501931047"/>
+	</phone>
+	<phone imei="358762052520585" make="apple" type="iphone" model="5s">
+		<sim provider="EE" phonenumber="07964914212" simnumber="8944122575501932276"/>
+	</phone>
+
+
+</root>
